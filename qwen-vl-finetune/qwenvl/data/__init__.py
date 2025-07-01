@@ -26,9 +26,9 @@ VIDEOCHATGPT = {
     "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
 }
 
-DEMO = {
-    "annotation_path": "/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/demo/video_two.json",
-    "data_path": "/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/demo/videos"
+ASSAULT = {
+    "annotation_path": "PATH_TO_ASSAULT_ANNOTATION",
+    "data_path": "PATH_TO_ASSAULT_VIDEO_DATA"
 }
 
 DEMO_IMG = {
@@ -42,7 +42,7 @@ data_dict = {
     "mp_doc": MP_DOC,
     "clevr_mc": CLEVR_MC,
     "videochatgpt": VIDEOCHATGPT,
-    "demo": DEMO,
+    "assault" : ASSAULT,
     "demoimg" : DEMO_IMG
 }
 
@@ -69,7 +69,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["demo%100"]
+    dataset_names = ["assault%100"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)

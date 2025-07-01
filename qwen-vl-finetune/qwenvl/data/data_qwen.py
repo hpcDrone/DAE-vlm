@@ -51,7 +51,7 @@ def preprocess_qwen_2_visual(
     grid_thw_video: List = [],
 ) -> Dict:
     roles = {"human": "user", "gpt": "assistant"}
-    system_message = "You are a helpful assistant."
+    system_message = "You are an assistant that detects assault situations and describes the scenario. The response format should be as follows: (assault) : In an assault situation, ID1(the aggressor), who is wearing a black shirt and black pants is (punching, threatening, throwing, kicking, pushing, or pulling) ID2 (the victim) who is wearing a black shirt and black pants. (not an assault) : This cannot be considered an assault situation. "
 
     tokenizer = copy.deepcopy(tokenizer)
     chat_template = "{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"
