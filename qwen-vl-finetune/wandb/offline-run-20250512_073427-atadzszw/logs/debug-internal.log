@@ -1,0 +1,15 @@
+{"time":"2025-05-12T07:34:28.126172934Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/wandb/offline-run-20250512_073427-atadzszw/logs/debug-core.log"}
+{"time":"2025-05-12T07:34:28.264515993Z","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-12T07:34:28.268033429Z","level":"INFO","msg":"created new stream","id":"atadzszw"}
+{"time":"2025-05-12T07:34:28.268062574Z","level":"INFO","msg":"stream: started","id":"atadzszw"}
+{"time":"2025-05-12T07:34:28.268103511Z","level":"INFO","msg":"writer: Do: started","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:28.268135311Z","level":"INFO","msg":"handler: started","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:28.268165388Z","level":"INFO","msg":"sender: started","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:28.31829357Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-12T07:34:32.337932542Z","level":"INFO","msg":"stream: closing","id":"atadzszw"}
+{"time":"2025-05-12T07:34:32.337991113Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-12T07:34:32.3382547Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-12T07:34:32.338371841Z","level":"INFO","msg":"handler: closed","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:32.338382912Z","level":"INFO","msg":"sender: closed","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:32.338382071Z","level":"INFO","msg":"writer: Close: closed","stream_id":"atadzszw"}
+{"time":"2025-05-12T07:34:32.368463392Z","level":"INFO","msg":"stream: closed","id":"atadzszw"}

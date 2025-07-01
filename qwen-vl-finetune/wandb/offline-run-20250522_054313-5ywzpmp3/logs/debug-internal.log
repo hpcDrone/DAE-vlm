@@ -1,0 +1,8 @@
+{"time":"2025-05-22T05:43:13.419380315Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/wandb/offline-run-20250522_054313-5ywzpmp3/logs/debug-core.log"}
+{"time":"2025-05-22T05:43:13.557696799Z","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-22T05:43:13.561220898Z","level":"INFO","msg":"created new stream","id":"5ywzpmp3"}
+{"time":"2025-05-22T05:43:13.561251716Z","level":"INFO","msg":"stream: started","id":"5ywzpmp3"}
+{"time":"2025-05-22T05:43:13.561284918Z","level":"INFO","msg":"writer: Do: started","stream_id":"5ywzpmp3"}
+{"time":"2025-05-22T05:43:13.561319724Z","level":"INFO","msg":"handler: started","stream_id":"5ywzpmp3"}
+{"time":"2025-05-22T05:43:13.561349711Z","level":"INFO","msg":"sender: started","stream_id":"5ywzpmp3"}
+{"time":"2025-05-22T05:43:13.603115564Z","level":"INFO","msg":"Starting system monitor"}

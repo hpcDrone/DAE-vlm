@@ -1,0 +1,15 @@
+{"time":"2025-05-20T07:37:23.159394078Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/wandb/offline-run-20250520_073722-poyndh3x/logs/debug-core.log"}
+{"time":"2025-05-20T07:37:23.305968269Z","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-20T07:37:23.309706652Z","level":"INFO","msg":"created new stream","id":"poyndh3x"}
+{"time":"2025-05-20T07:37:23.309733933Z","level":"INFO","msg":"stream: started","id":"poyndh3x"}
+{"time":"2025-05-20T07:37:23.309756606Z","level":"INFO","msg":"writer: Do: started","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:37:23.309784699Z","level":"INFO","msg":"handler: started","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:37:23.309765854Z","level":"INFO","msg":"sender: started","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:37:23.368234034Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-20T07:45:50.134261255Z","level":"INFO","msg":"stream: closing","id":"poyndh3x"}
+{"time":"2025-05-20T07:45:50.134312361Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-20T07:45:50.134539079Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-20T07:45:50.134649037Z","level":"INFO","msg":"handler: closed","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:45:50.134657953Z","level":"INFO","msg":"writer: Close: closed","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:45:50.134712045Z","level":"INFO","msg":"sender: closed","stream_id":"poyndh3x"}
+{"time":"2025-05-20T07:45:50.167688926Z","level":"INFO","msg":"stream: closed","id":"poyndh3x"}

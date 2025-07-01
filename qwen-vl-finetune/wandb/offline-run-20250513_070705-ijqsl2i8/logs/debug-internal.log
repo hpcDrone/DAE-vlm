@@ -1,0 +1,16 @@
+{"time":"2025-05-13T07:07:05.590932781Z","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/wandb/offline-run-20250513_070705-ijqsl2i8/logs/debug-core.log"}
+{"time":"2025-05-13T07:07:05.729330138Z","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-13T07:07:05.732810146Z","level":"INFO","msg":"created new stream","id":"ijqsl2i8"}
+{"time":"2025-05-13T07:07:05.732837067Z","level":"INFO","msg":"stream: started","id":"ijqsl2i8"}
+{"time":"2025-05-13T07:07:05.732890928Z","level":"INFO","msg":"writer: Do: started","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:07:05.73293421Z","level":"INFO","msg":"sender: started","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:07:05.732937767Z","level":"INFO","msg":"handler: started","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:07:05.783042816Z","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-13T07:13:30.663337552Z","level":"INFO","msg":"stream: closing","id":"ijqsl2i8"}
+{"time":"2025-05-13T07:13:30.663418815Z","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-13T07:13:30.663584809Z","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-13T07:13:30.663676161Z","level":"INFO","msg":"handler: closed","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:13:30.663691229Z","level":"INFO","msg":"writer: Close: closed","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:13:30.663726736Z","level":"INFO","msg":"sender: closed","stream_id":"ijqsl2i8"}
+{"time":"2025-05-13T07:13:30.664778712Z","level":"ERROR","msg":"writer: startStore: error closing store: store: failed closing file: close /tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/wandb/offline-run-20250513_070705-ijqsl2i8/run-ijqsl2i8.wandb: no space left on device"}
+{"time":"2025-05-13T07:13:30.6686882Z","level":"INFO","msg":"stream: closed","id":"ijqsl2i8"}
