@@ -209,7 +209,7 @@ def print_trainable_parameters(self) -> None:
     )
 
 
-def create_optimizer(self):
+def create_optimizer(self): # vision, mlp, llm 각각 learning rate를 따로 설정하기 위해 사용하는 함수
 
     opt_model = self.model
 
@@ -388,7 +388,7 @@ def create_optimizer(self):
 
 
 # Apply monkey patches
-Trainer.create_optimizer = create_optimizer
+# Trainer.create_optimizer = create_optimizer
 
 Qwen2VisionTransformerPretrainedModel.print_trainable_parameters = (
     print_trainable_parameters_visual
