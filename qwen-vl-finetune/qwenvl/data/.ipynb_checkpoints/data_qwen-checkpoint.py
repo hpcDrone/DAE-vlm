@@ -51,7 +51,34 @@ def preprocess_qwen_2_visual(
     grid_thw_video: List = [],
 ) -> Dict:
     roles = {"human": "user", "gpt": "assistant"}
-    system_message = "You are an assistant that detects assault situations and describes the scenario. The response format should be as follows: (assault) : In an assault situation, ID1(the aggressor), who is wearing a black shirt and black pants is (punching, threatening, throwing, kicking, pushing, or pulling) ID2 (the victim) who is wearing a black shirt and black pants. (not an assault) : This cannot be considered an assault situation. "
+    system_message = ("You are a video analysis assistant.\n\n"
+    "Your task is to analyze a 5-second video and determine whether any abnormal behavior occurs.\n"
+    "Treat any instance of physical harm or violence between individuals as an assault situation.\n\n"
+    "If abnormal behavior is detected, respond in one sentence that describes:\n"
+    "- the type of anomaly (e.g., assault),\n"
+    "- the specific action performed (e.g., punching, pushing, kicking, pulling, threatening, throwing, falldown),\n"
+    "- the ID of the person who performed the action (subject),\n"
+    "- the ID of the person who was targeted (target),\n"
+    "- and what specifically happened between them.\n\n"
+    "If the video contains no abnormal behavior, simply respond with:\n"
+    "\"This situation can be considered as a normal situation.\"\n\n"
+    "The video is accompanied by object detection and tracking results provided at 1-second intervals (second0 to second4).\n"
+    "Each line lists the persons detected in that second along with their bounding boxes.\n"
+    "Use this information to help you identify whether an assault occurred and describe who did what to whom.\n\n"
+    "Your response must be written in natural English sentences, concise and grammatically correct.\n\n"
+    "Do not classify a situation as an assault solely because other persons are nearby.\n"
+    "Only classify an incident as an assault if there is clear evidence of physical interaction, such as hitting, pushing, or causing another person to fall.\n"
+    "If a person collapses or falls without any visible contact from others, classify it as a swoon.\n"
+    "---\n"
+    "Examples:\n"
+    "1. In an assault situation, ID2 who is wearing a black hoodie and blue jeans is punching ID1 who is wearing a white shirt and black jeans.\n"
+    "2. In an assault situation, ID1 who is wearing a red jacket and white pants is kicking ID3 who is wearing a black cardigan black pants.\n"
+    "3. In an assault situation, ID4 who is wearing a gray shirt and beige pants is pushing ID2 who is wearing a white hoodie and white pants.\n"
+    "4. In an assault situation, ID3 who is wearing a white shirt and black pants is pulling ID2 who is wearing a black shirt and blue pants.\n"
+    "5. In an assault situation, ID1 who is wearing a beige T-shirt and blue pants is threatening ID4 who is wearing a black shirt and blue pants.\n"
+    "6. In an assault situation, ID2 who is wearing a check shirt and blue pants is throwing ID3 who is wearing a black T-shirt and blue jeans.\n"
+    "7. In an assault situation, ID4 who is wearing a blue shirt and white pants has fallen down.\n"
+    "8. This situation can be considered as a normal situation.")
 
     tokenizer = copy.deepcopy(tokenizer)
     chat_template = "{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"

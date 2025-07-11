@@ -1,49 +1,19 @@
 import re
 
 # Define placeholders for dataset paths
-CAMBRIAN_737K = {
-    "annotation_path": "PATH_TO_CAMBRIAN_737K_ANNOTATION",
-    "data_path": "",
-}
-
-CAMBRIAN_737K_PACK = {
-    "annotation_path": f"PATH_TO_CAMBRIAN_737K_ANNOTATION_PACKED",
-    "data_path": f"",
-}
-
-MP_DOC = {
-    "annotation_path": "PATH_TO_MP_DOC_ANNOTATION",
-    "data_path": "PATH_TO_MP_DOC_DATA",
-}
-
-CLEVR_MC = {
-    "annotation_path": "PATH_TO_CLEVR_MC_ANNOTATION",
-    "data_path": "PATH_TO_CLEVR_MC_DATA",
-}
-
-VIDEOCHATGPT = {
-    "annotation_path": "PATH_TO_VIDEOCHATGPT_ANNOTATION",
-    "data_path": "PATH_TO_VIDEOCHATGPT_DATA",
-}
-
 ASSAULT = {
-    "annotation_path": "PATH_TO_ASSAULT_ANNOTATION",
-    "data_path": "PATH_TO_ASSAULT_VIDEO_DATA"
+    "annotation_path": "/tf/notebook/NFS_dataset/Qwen2.5-VL/qwen-vl-finetune/qwenvl/train_dataset/assault_train.json",
+    "data_path": "/tf/notebook/NFS_dataset/YOLO_with_ReID/results/video_group_1(only day)"
 }
 
-DEMO_IMG = {
-    "annotation_path": "/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/demo/images.json",
-    "data_path": "/tf/notebooks/NFS_Dataset/Qwen2.5-VL/qwen-vl-finetune/demo/images"
+A_N = {
+    "annotation_path": "/tf/notebook/NFS_dataset/Qwen2.5-VL/qwen-vl-finetune/qwenvl/train_dataset/merged_a_n_train.json",
+    "data_path": "/tf/notebook/NFS_dataset/YOLO_with_ReID/results/video_group_1(only day)"
 }
 
 data_dict = {
-    "cambrian_737k": CAMBRIAN_737K,
-    "cambrian_737k_pack": CAMBRIAN_737K_PACK,
-    "mp_doc": MP_DOC,
-    "clevr_mc": CLEVR_MC,
-    "videochatgpt": VIDEOCHATGPT,
-    "assault" : ASSAULT,
-    "demoimg" : DEMO_IMG
+    # "assault" : ASSAULT,
+    "a_n" : A_N
 }
 
 
@@ -69,7 +39,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["assault%100"]
+    dataset_names = ["a_n%100"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)

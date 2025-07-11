@@ -1,0 +1,2563 @@
+[
+  {
+    "video": "12-1_cam02_assault01_place09_day_spring_person2_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[555, 254, 600, 484], id:2 bbox:[585, 270, 640, 529]]\nframe31: persons: [id:2 bbox:[507, 260, 593, 555], id:1 bbox:[567, 267, 637, 497]]\nframe61: persons: [id:1 bbox:[570, 273, 627, 509], id:2 bbox:[360, 450, 517, 607]]\nframe91: persons: [id:1 bbox:[568, 282, 641, 543], id:2 bbox:[361, 480, 477, 619]]\nframe121: persons: [id:1 bbox:[562, 278, 635, 550], id:2 bbox:[362, 479, 477, 622]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is punching ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-4_cam02_assault01_place08_day_spring_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[549, 360, 584, 507], id:2 bbox:[533, 334, 557, 484]]\nframe31: persons: [id:1 bbox:[550, 343, 587, 486], id:2 bbox:[541, 323, 565, 463]]\nframe61: persons: [id:1 bbox:[549, 334, 580, 470]]\nframe91: persons: [id:1 bbox:[531, 329, 562, 455], id:2 bbox:[514, 354, 532, 425]]\nframe121: persons: [id:1 bbox:[525, 336, 563, 450], id:2 bbox:[512, 353, 533, 423]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black shirt and black pants, is pushing ID2, who is wearing a black shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[38, 202, 56, 280], id:2 bbox:[323, 351, 380, 586]]\nframe31: persons: [id:1 bbox:[42, 199, 58, 269], id:2 bbox:[318, 394, 393, 572], id:3 bbox:[316, 494, 426, 601]]\nframe61: persons: [id:1 bbox:[46, 195, 61, 264], id:2 bbox:[311, 404, 405, 595]]\nframe91: persons: [id:1 bbox:[43, 193, 60, 257], id:2 bbox:[307, 385, 374, 573], id:3 bbox:[300, 496, 402, 614]]\nframe121: persons: [id:1 bbox:[43, 192, 57, 250], id:2 bbox:[287, 414, 361, 576], id:3 bbox:[285, 506, 406, 614], id:4 bbox:[11, 231, 37, 302]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is punching ID3 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_spring_person1_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[266, 57, 336, 305], id:2 bbox:[232, 57, 287, 259]]\nframe31: persons: [id:1 bbox:[267, 48, 338, 324], id:2 bbox:[247, 53, 296, 281]]\nframe61: persons: [id:1 bbox:[252, 208, 328, 369], id:2 bbox:[239, 76, 303, 256]]\nframe91: persons: [id:1 bbox:[263, 217, 343, 452], id:2 bbox:[223, 102, 287, 310]]\nframe121: persons: [id:2 bbox:[215, 97, 297, 309], id:1 bbox:[226, 290, 314, 411]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-6_cam02_assault03_place05_day_summer_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[243, 96, 313, 310], id:2 bbox:[149, 338, 291, 497]]\nframe31: persons: [id:1 bbox:[228, 101, 337, 339], id:2 bbox:[147, 345, 286, 499]]\nframe61: persons: [id:1 bbox:[238, 117, 315, 359], id:2 bbox:[151, 321, 282, 449]]\nframe91: persons: [id:1 bbox:[225, 120, 293, 355], id:2 bbox:[150, 321, 283, 458]]\nframe121: persons: [id:1 bbox:[226, 125, 290, 369], id:2 bbox:[150, 328, 282, 452]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-3_cam02_assault02_place08_day_summer_person3_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[635, 282, 719, 490], id:2 bbox:[585, 310, 631, 416], id:3 bbox:[697, 239, 729, 339]]\nframe31: persons: [id:1 bbox:[635, 284, 715, 490], id:2 bbox:[585, 312, 631, 415], id:3 bbox:[639, 231, 702, 404]]\nframe61: persons: [id:1 bbox:[634, 283, 716, 490], id:2 bbox:[570, 324, 618, 408], id:3 bbox:[612, 211, 674, 384]]\nframe91: persons: [id:1 bbox:[635, 281, 716, 490], id:2 bbox:[563, 332, 613, 411], id:3 bbox:[605, 206, 660, 384]]\nframe121: persons: [id:1 bbox:[635, 282, 715, 490], id:2 bbox:[563, 332, 613, 412], id:3 bbox:[578, 200, 649, 383]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a light-colored shirt and beige pants, is kicking ID2, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "21-3_cam02_assault01_place09_day_spring_person1_pushing_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[244, 283, 313, 445], id:2 bbox:[356, 256, 398, 375], id:3 bbox:[312, 250, 353, 342], id:4 bbox:[221, 239, 248, 368]]\nframe31: persons: [id:1 bbox:[244, 284, 312, 444], id:2 bbox:[357, 256, 399, 375], id:3 bbox:[313, 251, 353, 342], id:4 bbox:[223, 245, 251, 369]]\nframe61: persons: [id:1 bbox:[241, 284, 312, 444], id:2 bbox:[358, 255, 398, 374], id:3 bbox:[313, 251, 353, 342], id:4 bbox:[222, 253, 252, 382]]\nframe91: persons: [id:1 bbox:[266, 262, 322, 432], id:2 bbox:[358, 256, 398, 374], id:3 bbox:[313, 251, 352, 325], id:4 bbox:[76, 352, 179, 591]]\nframe121: persons: [id:1 bbox:[66, 366, 206, 728], id:2 bbox:[359, 255, 399, 375], id:3 bbox:[312, 251, 354, 343], id:5 bbox:[231, 207, 251, 291]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID4 who is wearing a checkered shirt and blue jeans, is pushing ID1 who is wearing a red shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_summer_person1_kicking_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[332, 412, 400, 655]]\nframe31: persons: [id:1 bbox:[327, 435, 415, 689], id:2 bbox:[281, 625, 399, 755]]\nframe61: persons: [id:1 bbox:[310, 428, 402, 674], id:2 bbox:[283, 627, 399, 755]]\nframe91: persons: [id:1 bbox:[334, 457, 410, 721], id:2 bbox:[275, 643, 380, 755], id:3 bbox:[623, 173, 634, 217]]\nframe121: persons: [id:1 bbox:[321, 451, 384, 682], id:2 bbox:[280, 623, 383, 755], id:3 bbox:[627, 176, 638, 219]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_spring_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[287, 261, 352, 521], id:2 bbox:[372, 211, 427, 471], id:3 bbox:[459, 297, 529, 486]]\nframe31: persons: [id:1 bbox:[299, 268, 362, 521], id:2 bbox:[382, 215, 442, 461], id:3 bbox:[460, 296, 528, 485]]\nframe61: persons: [id:1 bbox:[327, 224, 404, 544], id:2 bbox:[382, 215, 447, 462], id:3 bbox:[460, 296, 529, 479]]\nframe91: persons: [id:1 bbox:[342, 237, 399, 509], id:2 bbox:[385, 286, 463, 458], id:3 bbox:[460, 303, 528, 485]]\nframe121: persons: [id:1 bbox:[348, 241, 408, 510], id:2 bbox:[387, 291, 465, 460], id:3 bbox:[457, 297, 526, 486]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a balck jacket and gray pants, is pushing ID2, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam01_assault01_place09_day_spring_person2_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[244, 256, 280, 410], id:2 bbox:[249, 376, 293, 472]]\nframe31: persons: [id:1 bbox:[245, 263, 283, 430], id:2 bbox:[253, 372, 298, 472]]\nframe61: persons: [id:1 bbox:[255, 262, 293, 417], id:2 bbox:[255, 413, 309, 494]]\nframe91: persons: [id:1 bbox:[243, 273, 279, 455], id:2 bbox:[260, 405, 311, 500]]\nframe121: persons: [id:1 bbox:[238, 274, 283, 455], id:2 bbox:[260, 405, 315, 503]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is kicking ID2 who is wearing checkerd shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-5_cam02_assault01_place09_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[261, 297, 314, 436], id:2 bbox:[219, 206, 242, 389]]\nframe31: persons: [id:1 bbox:[262, 298, 313, 436], id:2 bbox:[214, 216, 244, 396]]\nframe61: persons: [id:1 bbox:[261, 297, 313, 436], id:2 bbox:[202, 236, 253, 400]]\nframe91: persons: [id:1 bbox:[263, 282, 313, 464], id:2 bbox:[174, 305, 230, 484]]\nframe121: persons: [id:1 bbox:[260, 273, 305, 450]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and blue jeans, is slapping ID1, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "4-5_cam02_assault01_place01_day_summer_person1_pulling_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[184, 191, 225, 361], id:2 bbox:[211, 225, 246, 393]]\nframe31: persons: [id:1 bbox:[176, 198, 236, 368], id:2 bbox:[221, 217, 257, 389]]\nframe61: persons: [id:1 bbox:[190, 195, 249, 367], id:2 bbox:[241, 214, 273, 390]]\nframe91: persons: [id:1 bbox:[217, 191, 254, 369], id:2 bbox:[245, 221, 278, 392]]\nframe121: persons: [id:1 bbox:[199, 200, 251, 374], id:2 bbox:[249, 222, 301, 398]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is pushing ID2, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_summer_person2_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[406, 294, 482, 648], id:2 bbox:[372, 307, 430, 458]]\nframe31: persons: [id:1 bbox:[402, 332, 505, 646], id:2 bbox:[374, 298, 428, 444], id:3 bbox:[423, 286, 472, 411]]\nframe61: persons: [id:1 bbox:[417, 287, 505, 604], id:2 bbox:[376, 291, 426, 470], id:3 bbox:[426, 286, 465, 356]]\nframe91: persons: [id:1 bbox:[419, 255, 494, 537], id:2 bbox:[371, 288, 428, 466], id:3 bbox:[423, 287, 458, 415]]\nframe121: persons: [id:1 bbox:[419, 260, 503, 540], id:2 bbox:[373, 284, 430, 464], id:3 bbox:[420, 293, 464, 472]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and gray pants, is slapping ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "4-3_cam01_assault01_place01_day_spring_person1_pushing_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[364, 298, 418, 469]]\nframe31: persons: [id:1 bbox:[364, 300, 419, 470], id:2 bbox:[332, 310, 375, 463]]\nframe61: persons: [id:1 bbox:[407, 284, 452, 444], id:2 bbox:[345, 327, 385, 464]]\nframe91: persons: [id:1 bbox:[443, 281, 483, 434], id:2 bbox:[340, 297, 379, 467], id:3 bbox:[381, 300, 429, 429]]\nframe121: persons: [id:1 bbox:[405, 291, 466, 454], id:2 bbox:[350, 296, 395, 472], id:3 bbox:[366, 293, 424, 436]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black jacket and blue jeans, is pushing ID3, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam01_assault01_place09_day_summer_person2_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[290, 316, 344, 553], id:2 bbox:[295, 277, 329, 364]]\nframe31: persons: [id:1 bbox:[296, 320, 356, 531]]\nframe61: persons: [id:1 bbox:[335, 318, 376, 563], id:3 bbox:[277, 345, 336, 445]]\nframe91: persons: [id:1 bbox:[339, 326, 388, 561], id:3 bbox:[289, 368, 329, 445]]\nframe121: persons: [id:1 bbox:[338, 328, 387, 562], id:3 bbox:[292, 369, 324, 440]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID3 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_spring_person1_kicking_seg16_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[281, 118, 347, 383]]\nframe31: persons: [id:1 bbox:[267, 99, 346, 385], id:2 bbox:[210, 352, 312, 498]]\nframe61: persons: [id:1 bbox:[274, 140, 347, 407], id:2 bbox:[210, 353, 311, 498]]\nframe91: persons: [id:1 bbox:[269, 111, 347, 405], id:2 bbox:[208, 353, 311, 497]]\nframe121: persons: [id:1 bbox:[284, 107, 346, 379], id:2 bbox:[209, 351, 326, 498]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a blue checkered shirt and sky blue pants, is kicking ID2, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-1_cam02_assault03_place05_day_summer_person2_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[310, 379, 366, 551], id:2 bbox:[302, 524, 381, 712]]\nframe31: persons: [id:1 bbox:[302, 379, 367, 528], id:2 bbox:[301, 488, 375, 713], id:3 bbox:[735, 273, 755, 381]]\nframe61: persons: [id:1 bbox:[287, 388, 354, 631], id:2 bbox:[314, 586, 415, 756], id:3 bbox:[721, 257, 754, 340]]\nframe91: persons: [id:1 bbox:[294, 387, 363, 618], id:2 bbox:[331, 637, 431, 755], id:3 bbox:[709, 243, 729, 329]]\nframe121: persons: [id:1 bbox:[303, 427, 433, 643], id:2 bbox:[328, 639, 416, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue jeans, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "180-3_cam01_assault01_place09_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[189, 382, 247, 660], id:2 bbox:[454, 321, 518, 524]]\nframe31: persons: [id:1 bbox:[156, 372, 246, 645], id:2 bbox:[330, 384, 424, 654]]\nframe61: persons: [id:1 bbox:[176, 374, 268, 638], id:2 bbox:[413, 351, 485, 594]]\nframe91: persons: [id:1 bbox:[212, 384, 320, 635], id:2 bbox:[449, 362, 546, 606]]\nframe121: persons: [id:1 bbox:[221, 360, 296, 601], id:2 bbox:[455, 507, 549, 756], id:3 bbox:[663, 405, 703, 469]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, wearing an orange cap, black sleeveless shirt and blue jeans is threatening ID2, who is wearing a white shirt, a dark vest and gray pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_threaten_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[275, 537, 396, 711]]\nframe31: persons: [id:1 bbox:[279, 526, 396, 736], id:2 bbox:[339, 408, 393, 661]]\nframe61: persons: [id:1 bbox:[282, 577, 395, 710], id:2 bbox:[332, 399, 391, 670]]\nframe91: persons: [id:1 bbox:[273, 591, 393, 708], id:2 bbox:[312, 444, 380, 668]]\nframe121: persons: [id:1 bbox:[274, 561, 379, 717], id:2 bbox:[270, 480, 382, 667]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is threatening ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-5_cam02_assault01_place08_day_summer_person2_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[561, 366, 604, 487], id:2 bbox:[535, 375, 572, 461], id:3 bbox:[449, 352, 473, 518]]\nframe31: persons: [id:1 bbox:[549, 353, 591, 489], id:2 bbox:[520, 383, 560, 464], id:3 bbox:[424, 358, 452, 531]]\nframe61: persons: [id:1 bbox:[531, 349, 569, 479], id:2 bbox:[512, 381, 544, 455], id:3 bbox:[402, 368, 448, 548]]\nframe91: persons: [id:1 bbox:[529, 352, 562, 476], id:2 bbox:[509, 385, 542, 456], id:3 bbox:[395, 374, 436, 554]]\nframe121: persons: [id:1 bbox:[548, 351, 580, 474], id:2 bbox:[511, 377, 547, 457], id:3 bbox:[394, 376, 446, 553]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is punching ID2, who is wearing a white shirt and gray pants."
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_summer_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[302, 381, 359, 598], id:2 bbox:[322, 577, 432, 725]]\nframe31: persons: [id:1 bbox:[310, 379, 369, 594], id:2 bbox:[321, 561, 430, 725]]\nframe61: persons: [id:1 bbox:[309, 387, 393, 534], id:2 bbox:[314, 489, 426, 725]]\nframe91: persons: [id:2 bbox:[323, 542, 425, 739], id:1 bbox:[310, 380, 379, 569]]\nframe121: persons: [id:2 bbox:[348, 573, 432, 739], id:1 bbox:[327, 380, 397, 599]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_summer_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[256, 273, 315, 486]]\nframe31: persons: [id:1 bbox:[259, 289, 308, 512], id:2 bbox:[226, 511, 326, 622], id:3 bbox:[725, 678, 755, 755]]\nframe61: persons: [id:1 bbox:[253, 288, 330, 540], id:2 bbox:[222, 510, 325, 624], id:3 bbox:[725, 678, 755, 755]]\nframe91: persons: [id:1 bbox:[254, 285, 300, 537], id:2 bbox:[222, 570, 331, 744], id:3 bbox:[725, 678, 755, 755]]\nframe121: persons: [id:1 bbox:[245, 267, 285, 501], id:2 bbox:[185, 585, 327, 729], id:3 bbox:[725, 678, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam02_assault01_place09_day_spring_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[63, 280, 189, 747]]\nframe31: persons: [id:1 bbox:[229, 234, 297, 605]]\nframe61: persons: [id:1 bbox:[327, 214, 386, 508], id:3 bbox:[183, 330, 272, 508]]\nframe91: persons: [id:1 bbox:[366, 208, 415, 439], id:3 bbox:[218, 329, 287, 517]]\nframe121: persons: [id:1 bbox:[393, 207, 435, 414], id:3 bbox:[200, 354, 274, 507]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is punching ID3 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "180-6_cam02_assault01_place09_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[55, 378, 122, 567], id:2 bbox:[21, 359, 64, 529], id:3 bbox:[319, 312, 351, 435]]\nframe31: persons: [id:1 bbox:[98, 367, 170, 605], id:2 bbox:[20, 364, 70, 529], id:3 bbox:[342, 239, 392, 389]]\nframe61: persons: [id:1 bbox:[184, 315, 281, 551], id:2 bbox:[68, 356, 126, 528], id:3 bbox:[346, 240, 381, 391]]\nframe91: persons: [id:1 bbox:[249, 260, 301, 470], id:2 bbox:[81, 340, 149, 528]]\nframe121: persons: [id:1 bbox:[226, 289, 299, 514], id:2 bbox:[86, 310, 134, 473], id:3 bbox:[325, 233, 368, 388]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, wearing a black sleeveless shirt and blue jeans is threatening ID1, who is wearing a white shirt, a purple vest and gray pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_summer_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[224, 296, 337, 517], id:2 bbox:[268, 117, 323, 313]]\nframe31: persons: [id:1 bbox:[213, 323, 313, 520], id:2 bbox:[246, 128, 336, 375]]\nframe61: persons: [id:1 bbox:[173, 327, 289, 544], id:2 bbox:[232, 144, 301, 402]]\nframe91: persons: [id:1 bbox:[147, 369, 248, 566], id:2 bbox:[192, 168, 267, 439]]\nframe121: persons: [id:1 bbox:[152, 413, 233, 615], id:2 bbox:[193, 160, 264, 439]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is kicking ID1, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-4_cam02_assault01_place01_day_summer_person1_pushing_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[165, 187, 210, 335], id:2 bbox:[140, 206, 181, 357], id:3 bbox:[205, 209, 242, 363]]\nframe31: persons: [id:1 bbox:[170, 181, 219, 336], id:2 bbox:[138, 220, 204, 375], id:3 bbox:[212, 222, 257, 362]]\nframe61: persons: [id:3 bbox:[197, 219, 240, 362], id:1 bbox:[143, 182, 212, 353], id:2 bbox:[137, 233, 189, 391]]\nframe91: persons: [id:2 bbox:[228, 300, 277, 468], id:1 bbox:[168, 197, 208, 344], id:3 bbox:[189, 207, 229, 373]]\nframe121: persons: [id:2 bbox:[250, 279, 299, 477], id:1 bbox:[176, 196, 236, 359], id:3 bbox:[229, 254, 258, 383]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is pushing ID2, who is wearing a black shirt and blue jeans and punching ID3, who is white shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-3_cam01_assault01_place09_day_spring_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[276, 418, 375, 703], id:2 bbox:[340, 438, 417, 755]]\nframe31: persons: [id:1 bbox:[262, 378, 323, 702], id:2 bbox:[432, 491, 500, 755], id:3 bbox:[719, 675, 755, 755]]\nframe61: persons: [id:1 bbox:[273, 420, 358, 702], id:2 bbox:[331, 445, 433, 744], id:3 bbox:[720, 677, 755, 755]]\nframe91: persons: [id:1 bbox:[205, 402, 314, 552], id:2 bbox:[379, 439, 470, 755], id:3 bbox:[719, 676, 755, 755]]\nframe121: persons: [id:1 bbox:[190, 451, 296, 561], id:2 bbox:[377, 439, 478, 755], id:3 bbox:[720, 677, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is kicking ID1 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_summer_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[244, 400, 324, 646], id:2 bbox:[386, 449, 481, 755]]\nframe31: persons: [id:1 bbox:[240, 401, 321, 644], id:2 bbox:[372, 421, 437, 755], id:3 bbox:[722, 679, 755, 755]]\nframe61: persons: [id:1 bbox:[230, 453, 306, 631], id:2 bbox:[273, 423, 395, 690], id:3 bbox:[723, 688, 755, 755]]\nframe91: persons: [id:1 bbox:[226, 508, 325, 627], id:2 bbox:[335, 427, 421, 756], id:3 bbox:[725, 678, 755, 755]]\nframe121: persons: [id:2 bbox:[224, 452, 345, 755], id:3 bbox:[726, 676, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_summer_person1_throwing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[306, 302, 378, 566], id:2 bbox:[243, 352, 312, 619]]\nframe31: persons: [id:1 bbox:[386, 366, 485, 704], id:2 bbox:[229, 366, 305, 611], id:3 bbox:[185, 592, 327, 722], id:4 bbox:[725, 678, 755, 755]]\nframe61: persons: [id:1 bbox:[480, 556, 597, 755], id:2 bbox:[264, 350, 343, 611], id:3 bbox:[187, 592, 327, 722], id:4 bbox:[725, 679, 755, 755]]\nframe91: persons: [id:2 bbox:[262, 335, 325, 590], id:3 bbox:[187, 593, 326, 724], id:4 bbox:[725, 678, 755, 755]]\nframe121: persons: [id:2 bbox:[275, 315, 322, 573], id:3 bbox:[186, 592, 325, 724], id:4 bbox:[725, 679, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is throwing at ID3 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-6_cam02_assault01_place03_day_spring_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[206, 342, 250, 533], id:2 bbox:[266, 471, 312, 609]]\nframe31: persons: [id:1 bbox:[221, 364, 284, 558], id:2 bbox:[270, 467, 311, 612]]\nframe61: persons: [id:1 bbox:[245, 397, 319, 568], id:2 bbox:[274, 466, 332, 622]]\nframe91: persons: [id:1 bbox:[268, 343, 313, 532], id:2 bbox:[255, 500, 358, 588]]\nframe121: persons: [id:1 bbox:[268, 332, 304, 518]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a checkered shirt and black pants, is slapping ID2, also wearing a checkered shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam02_assault01_place09_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[577, 257, 641, 469], id:2 bbox:[443, 248, 495, 529]]\nframe31: persons: [id:1 bbox:[541, 255, 617, 494], id:2 bbox:[443, 247, 495, 530], id:3 bbox:[0, 641, 57, 755]]\nframe61: persons: [id:1 bbox:[526, 253, 583, 493], id:2 bbox:[456, 243, 504, 526], id:3 bbox:[0, 640, 60, 755]]\nframe91: persons: [id:1 bbox:[536, 329, 595, 485], id:2 bbox:[448, 257, 551, 552], id:3 bbox:[0, 641, 59, 755]]\nframe121: persons: [id:2 bbox:[467, 251, 543, 580], id:3 bbox:[0, 640, 56, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-2_cam02_assault01_place01_day_summer_person1_pulling_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[188, 193, 237, 356], id:2 bbox:[218, 211, 267, 384], id:3 bbox:[85, 171, 111, 292]]\nframe31: persons: [id:2 bbox:[183, 226, 251, 399], id:3 bbox:[131, 204, 173, 350], id:1 bbox:[175, 190, 219, 367]]\nframe61: persons: [id:2 bbox:[163, 224, 201, 365], id:3 bbox:[130, 184, 178, 392]]\nframe91: persons: [id:1 bbox:[113, 167, 153, 340], id:2 bbox:[140, 217, 175, 343]]\nframe121: persons: [id:1 bbox:[106, 175, 159, 341], id:2 bbox:[138, 217, 179, 312]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and blue jeans, is pulling ID2, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_spring_person1_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[231, 69, 294, 313], id:2 bbox:[172, 81, 241, 283]]\nframe31: persons: [id:1 bbox:[252, 86, 332, 358], id:2 bbox:[206, 69, 256, 295], id:3 bbox:[594, 0, 614, 45]]\nframe61: persons: [id:1 bbox:[240, 171, 306, 373], id:2 bbox:[199, 89, 289, 278], id:3 bbox:[608, 0, 626, 57]]\nframe91: persons: [id:1 bbox:[250, 265, 321, 481], id:2 bbox:[208, 101, 278, 338], id:3 bbox:[616, 0, 638, 69]]\nframe121: persons: [id:1 bbox:[254, 305, 322, 501], id:2 bbox:[216, 118, 304, 331], id:3 bbox:[624, 4, 648, 94]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam02_assault02_place08_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[608, 204, 661, 389], id:2 bbox:[576, 201, 633, 382]]\nframe31: persons: [id:1 bbox:[629, 214, 680, 397], id:2 bbox:[598, 196, 647, 381], id:3 bbox:[577, 231, 614, 358]]\nframe61: persons: [id:1 bbox:[634, 213, 694, 387], id:2 bbox:[584, 201, 649, 380], id:3 bbox:[577, 222, 608, 351]]\nframe91: persons: [id:1 bbox:[636, 211, 690, 386], id:2 bbox:[594, 192, 658, 375], id:3 bbox:[572, 240, 612, 356]]\nframe121: persons: [id:1 bbox:[636, 210, 685, 383], id:2 bbox:[615, 200, 659, 363], id:3 bbox:[573, 242, 610, 360]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and beige pants, is slapping ID3, who is wearing a light-colored shirt and balck pants"
+      }
+    ]
+  },
+  {
+    "video": "21-3_cam01_assault01_place09_day_spring_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[198, 339, 288, 487], id:2 bbox:[166, 227, 213, 371], id:3 bbox:[230, 223, 268, 351]]\nframe31: persons: [id:1 bbox:[199, 340, 288, 487], id:2 bbox:[166, 228, 210, 371], id:3 bbox:[231, 223, 268, 350], id:4 bbox:[72, 279, 105, 405]]\nframe61: persons: [id:1 bbox:[199, 341, 288, 487], id:2 bbox:[166, 230, 212, 365], id:3 bbox:[232, 223, 270, 350], id:4 bbox:[115, 290, 198, 488]]\nframe91: persons: [id:1 bbox:[224, 319, 279, 487], id:2 bbox:[167, 230, 211, 368], id:3 bbox:[228, 223, 268, 338]]\nframe121: persons: [id:1 bbox:[219, 319, 278, 485], id:2 bbox:[166, 231, 211, 369], id:3 bbox:[226, 222, 268, 336]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID4 who is wearing a checkered shirt and blue jeans, is slapping ID1 who is wearing a red shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "7-2_cam02_assault01_place04_day_summer_person2_kicking_seg8_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[550, 443, 632, 695], id:2 bbox:[503, 151, 522, 236], id:3 bbox:[706, 225, 739, 334], id:4 bbox:[354, 184, 380, 323], id:5 bbox:[407, 213, 444, 300], id:6 bbox:[396, 181, 420, 291]]\nframe31: persons: [id:1 bbox:[662, 311, 714, 475], id:2 bbox:[503, 150, 522, 237], id:3 bbox:[735, 201, 755, 289], id:4 bbox:[364, 184, 386, 326], id:5 bbox:[419, 195, 456, 305], id:6 bbox:[389, 187, 414, 294]]\nframe61: persons: [id:1 bbox:[710, 249, 741, 373], id:2 bbox:[500, 153, 521, 236], id:4 bbox:[371, 183, 397, 300], id:5 bbox:[434, 195, 465, 309], id:6 bbox:[393, 190, 437, 318]]\nframe91: persons: [id:1 bbox:[732, 219, 755, 315], id:2 bbox:[487, 159, 512, 265], id:4 bbox:[361, 185, 391, 302], id:5 bbox:[439, 192, 464, 295], id:6 bbox:[408, 181, 436, 304]]\nframe121: persons: [id:2 bbox:[489, 163, 517, 272], id:4 bbox:[369, 174, 396, 305], id:5 bbox:[459, 174, 484, 286], id:6 bbox:[393, 167, 417, 300]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID6, who is wearing a white shirt and beige pants, is kicking ID5, also wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_pulling_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[303, 389, 395, 626]]\nframe31: persons: [id:1 bbox:[289, 429, 395, 629], id:3 bbox:[45, 214, 70, 280]]\nframe61: persons: [id:1 bbox:[306, 391, 395, 611], id:3 bbox:[45, 209, 71, 267], id:4 bbox:[304, 457, 406, 649]]\nframe91: persons: [id:1 bbox:[319, 401, 414, 661], id:3 bbox:[48, 210, 73, 283]]\nframe121: persons: [id:1 bbox:[317, 361, 383, 628], id:3 bbox:[48, 207, 71, 268]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is pushing ID4 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-4_cam01_assault01_place09_day_spring_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[218, 318, 290, 513], id:2 bbox:[105, 224, 154, 450]]\nframe31: persons: [id:1 bbox:[218, 315, 289, 512], id:2 bbox:[105, 229, 159, 460]]\nframe61: persons: [id:1 bbox:[218, 314, 290, 512], id:2 bbox:[142, 265, 222, 470]]\nframe91: persons: [id:2 bbox:[136, 314, 218, 524], id:1 bbox:[220, 316, 281, 529]]\nframe121: persons: [id:1 bbox:[241, 274, 294, 522], id:2 bbox:[269, 661, 413, 756]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a checkered shirt and blue jeans, is slapping ID1 who is wearing a red shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_summer_person1_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[307, 398, 385, 661]]\nframe31: persons: [id:1 bbox:[304, 518, 404, 725], id:2 bbox:[294, 379, 349, 574]]\nframe61: persons: [id:1 bbox:[313, 559, 395, 725], id:2 bbox:[274, 406, 394, 601]]\nframe91: persons: [id:1 bbox:[318, 565, 433, 726], id:2 bbox:[291, 387, 359, 601]]\nframe121: persons: [id:1 bbox:[324, 582, 431, 725], id:2 bbox:[310, 375, 366, 610]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is kicking ID1, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-3_cam01_assault02_place08_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[523, 389, 634, 685], id:2 bbox:[194, 394, 297, 703], id:3 bbox:[384, 385, 435, 523]]\nframe31: persons: [id:1 bbox:[521, 383, 619, 685], id:2 bbox:[207, 351, 291, 661], id:3 bbox:[384, 385, 437, 523]]\nframe61: persons: [id:1 bbox:[418, 345, 516, 648], id:2 bbox:[194, 336, 289, 656], id:3 bbox:[385, 387, 435, 524]]\nframe91: persons: [id:1 bbox:[471, 358, 559, 669], id:2 bbox:[194, 339, 289, 656], id:3 bbox:[343, 413, 436, 521]]\nframe121: persons: [id:1 bbox:[506, 402, 590, 688], id:2 bbox:[198, 335, 289, 656], id:3 bbox:[321, 400, 424, 522]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light blue shirt and beige pants, is striking ID3, who is wearing a light blue shirt and black pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "4-2_cam02_assault01_place01_day_spring_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[194, 211, 249, 350], id:-1 bbox:[156, 176, 196, 335]]\nframe31: persons: [id:1 bbox:[192, 205, 247, 350], id:2 bbox:[137, 174, 198, 339]]\nframe61: persons: [id:1 bbox:[193, 211, 238, 355], id:2 bbox:[153, 172, 201, 340]]\nframe91: persons: [id:1 bbox:[185, 206, 234, 342], id:2 bbox:[160, 178, 202, 340], id:3 bbox:[0, 195, 18, 298]]\nframe121: persons: [id:1 bbox:[191, 192, 230, 349], id:2 bbox:[157, 175, 201, 340], id:3 bbox:[21, 189, 60, 318]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a green jacket and blue jeans, is punching ID1, who is wearing a black shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_spring_person1_throwing_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[296, 342, 353, 607]]\nframe31: persons: [id:1 bbox:[280, 384, 358, 650], id:2 bbox:[282, 254, 317, 410], id:3 bbox:[194, 574, 339, 747]]\nframe61: persons: [id:1 bbox:[277, 390, 324, 655], id:2 bbox:[265, 253, 317, 427], id:3 bbox:[194, 571, 327, 753]]\nframe91: persons: [id:1 bbox:[257, 380, 311, 616], id:2 bbox:[279, 253, 317, 418], id:3 bbox:[194, 566, 327, 753]]\nframe121: persons: [id:1 bbox:[249, 392, 311, 620], id:2 bbox:[277, 252, 317, 414], id:3 bbox:[194, 567, 328, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is throwing ID3 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[244, 400, 316, 520], id:2 bbox:[229, 485, 324, 574]]\nframe31: persons: [id:1 bbox:[241, 404, 307, 521], id:2 bbox:[229, 488, 325, 585], id:3 bbox:[177, 219, 206, 317]]\nframe61: persons: [id:1 bbox:[244, 400, 315, 515], id:2 bbox:[229, 488, 324, 572], id:3 bbox:[210, 217, 231, 317]]\nframe91: persons: [id:1 bbox:[254, 379, 310, 510], id:2 bbox:[228, 490, 320, 574], id:3 bbox:[239, 250, 257, 314]]\nframe121: persons: [id:1 bbox:[252, 409, 337, 548], id:2 bbox:[225, 495, 318, 576], id:4 bbox:[24, 276, 53, 375]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_spring_person1_kicking_seg9_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[240, 110, 318, 353], id:2 bbox:[220, 350, 309, 502]]\nframe31: persons: [id:1 bbox:[260, 100, 333, 354], id:2 bbox:[216, 351, 310, 498]]\nframe61: persons: [id:1 bbox:[266, 85, 352, 379], id:2 bbox:[214, 357, 286, 496]]\nframe91: persons: [id:1 bbox:[279, 104, 352, 379], id:2 bbox:[213, 352, 310, 498]]\nframe121: persons: [id:1 bbox:[269, 152, 360, 401], id:2 bbox:[215, 348, 309, 497]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a blue checkered shirt and sky blue pants, is kicking ID2, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_summer_person1_threaten_seg14_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[557, 280, 588, 425], id:2 bbox:[584, 288, 614, 404], id:3 bbox:[540, 273, 565, 400]]\nframe31: persons: [id:1 bbox:[558, 282, 594, 424], id:2 bbox:[582, 288, 615, 405], id:3 bbox:[543, 276, 575, 401]]\nframe61: persons: [id:1 bbox:[558, 279, 594, 420], id:2 bbox:[583, 288, 615, 403], id:3 bbox:[530, 271, 555, 390]]\nframe91: persons: [id:1 bbox:[542, 270, 572, 404], id:2 bbox:[576, 287, 614, 401], id:3 bbox:[528, 268, 550, 388]]\nframe121: persons: [id:1 bbox:[535, 271, 567, 404], id:2 bbox:[570, 281, 596, 400]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is slapping ID3, who is wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_spring_person2_pulling_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[468, 379, 537, 592], id:2 bbox:[399, 398, 437, 484], id:3 bbox:[568, 447, 611, 623]]\nframe31: persons: [id:1 bbox:[485, 404, 598, 615], id:2 bbox:[399, 398, 437, 484], id:3 bbox:[574, 472, 624, 635]]\nframe61: persons: [id:1 bbox:[489, 397, 577, 614], id:2 bbox:[399, 398, 437, 484], id:3 bbox:[556, 420, 610, 609]]\nframe91: persons: [id:1 bbox:[482, 383, 549, 606], id:2 bbox:[399, 398, 436, 485], id:3 bbox:[534, 487, 579, 603]]\nframe121: persons: [id:1 bbox:[468, 382, 526, 597], id:2 bbox:[399, 399, 436, 484], id:3 bbox:[538, 441, 592, 604]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black and white jacket and gray pants, is violently pulling ID3, who is wearing a black jacket and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam01_assault01_place03_day_spring_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[427, 338, 467, 484], id:2 bbox:[458, 328, 487, 465]]\nframe31: persons: [id:1 bbox:[424, 339, 456, 518], id:2 bbox:[439, 337, 484, 470]]\nframe61: persons: [id:1 bbox:[438, 337, 465, 491], id:2 bbox:[460, 324, 489, 463], id:4 bbox:[107, 350, 127, 404]]\nframe91: persons: [id:1 bbox:[458, 336, 480, 465], id:2 bbox:[500, 334, 536, 428], id:4 bbox:[132, 340, 146, 392]]\nframe121: persons: [id:1 bbox:[454, 309, 480, 443], id:2 bbox:[518, 312, 547, 386]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a checkered shirt and black pants, is punching ID2, who is wearing a checkered shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_summer_person1_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[408, 344, 448, 479], id:2 bbox:[498, 309, 540, 474]]\nframe31: persons: [id:1 bbox:[403, 352, 448, 507], id:2 bbox:[450, 310, 512, 454], id:3 bbox:[417, 457, 491, 544]]\nframe61: persons: [id:1 bbox:[378, 342, 416, 499], id:2 bbox:[451, 314, 508, 470], id:3 bbox:[417, 458, 496, 524]]\nframe91: persons: [id:1 bbox:[388, 337, 421, 489], id:2 bbox:[455, 316, 497, 474], id:3 bbox:[417, 461, 495, 524]]\nframe121: persons: [id:1 bbox:[391, 368, 436, 539], id:2 bbox:[501, 312, 539, 471], id:3 bbox:[420, 464, 499, 522]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a black shirt and black pants, and ID1, who is wearing a white shirt and black pants, are kicking ID3, who is lying on the ground and wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam01_assault01_place01_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[365, 294, 411, 477], id:2 bbox:[418, 270, 465, 453]]\nframe31: persons: [id:1 bbox:[365, 296, 409, 474], id:2 bbox:[418, 269, 464, 453]]\nframe61: persons: [id:1 bbox:[354, 290, 402, 482], id:2 bbox:[383, 272, 438, 461]]\nframe91: persons: [id:1 bbox:[341, 301, 388, 490], id:2 bbox:[403, 271, 450, 461], id:3 bbox:[376, 280, 447, 459]]\nframe121: persons: [id:1 bbox:[331, 312, 375, 503], id:2 bbox:[402, 271, 460, 447], id:3 bbox:[375, 277, 414, 456]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and blue jeans, is pushing ID1, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam01_assault01_place08_day_summer_person1_pulling_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[474, 407, 524, 586], id:2 bbox:[412, 371, 449, 558], id:3 bbox:[445, 365, 493, 524], id:4 bbox:[0, 351, 38, 493]]\nframe31: persons: [id:1 bbox:[474, 409, 523, 586], id:2 bbox:[413, 370, 457, 557], id:3 bbox:[451, 365, 493, 523], id:4 bbox:[4, 337, 40, 481]]\nframe61: persons: [id:1 bbox:[478, 406, 516, 585], id:2 bbox:[435, 361, 477, 536], id:3 bbox:[462, 362, 492, 510], id:4 bbox:[2, 320, 41, 451]]\nframe91: persons: [id:1 bbox:[471, 393, 509, 573], id:2 bbox:[426, 368, 469, 565], id:3 bbox:[450, 371, 482, 533]]\nframe121: persons: [id:1 bbox:[469, 397, 497, 572], id:2 bbox:[429, 364, 478, 557]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and black pants, is threatening ID3, who is wearing a white shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam02_assault01_place03_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[143, 308, 172, 412], id:2 bbox:[162, 312, 188, 426]]\nframe31: persons: [id:2 bbox:[168, 312, 199, 426], id:1 bbox:[160, 309, 179, 424]]\nframe61: persons: [id:2 bbox:[205, 320, 234, 436], id:1 bbox:[170, 321, 207, 429]]\nframe91: persons: [id:2 bbox:[249, 362, 285, 443], id:1 bbox:[224, 312, 246, 436]]\nframe121: persons: [id:2 bbox:[281, 381, 317, 453], id:1 bbox:[244, 307, 266, 427]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a black shirt and black pants, is punching ID2, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_spring_person1_pulling_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[557, 359, 604, 485], id:2 bbox:[634, 193, 648, 240], id:3 bbox:[654, 206, 668, 253]]\nframe31: persons: [id:2 bbox:[637, 195, 650, 246], id:3 bbox:[650, 201, 665, 252], id:4 bbox:[657, 204, 672, 265], id:1 bbox:[544, 392, 607, 492]]\nframe61: persons: [id:2 bbox:[638, 199, 654, 254], id:4 bbox:[654, 203, 666, 257], id:1 bbox:[505, 360, 580, 526]]\nframe91: persons: [id:2 bbox:[645, 205, 660, 263], id:1 bbox:[476, 357, 540, 546], id:5 bbox:[517, 366, 571, 496]]\nframe121: persons: [id:2 bbox:[661, 209, 675, 274], id:1 bbox:[451, 395, 517, 557], id:6 bbox:[630, 191, 644, 240], id:5 bbox:[510, 379, 561, 498]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black checkered shirt and beige pants, is pulling ID5, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam01_assault01_place09_day_spring_person1_threaten_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[214, 323, 278, 619], id:2 bbox:[183, 305, 233, 564]]\nframe31: persons: [id:1 bbox:[208, 320, 274, 610], id:2 bbox:[169, 306, 213, 565], id:3 bbox:[722, 675, 755, 755]]\nframe61: persons: [id:1 bbox:[173, 304, 240, 586], id:2 bbox:[148, 287, 197, 547], id:3 bbox:[722, 676, 755, 755]]\nframe91: persons: [id:1 bbox:[163, 307, 232, 580], id:2 bbox:[147, 287, 187, 540], id:3 bbox:[721, 676, 755, 755]]\nframe121: persons: [id:1 bbox:[178, 308, 236, 587], id:2 bbox:[147, 287, 190, 545], id:3 bbox:[721, 677, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_summer_person1_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[255, 72, 319, 282], id:2 bbox:[298, 72, 362, 333]]\nframe31: persons: [id:1 bbox:[245, 71, 310, 312], id:2 bbox:[297, 155, 371, 395]]\nframe61: persons: [id:1 bbox:[272, 81, 366, 287], id:2 bbox:[301, 220, 380, 399]]\nframe91: persons: [id:1 bbox:[288, 89, 357, 271], id:2 bbox:[277, 243, 385, 436]]\nframe121: persons: [id:1 bbox:[287, 95, 345, 332], id:2 bbox:[255, 332, 338, 505]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-3_cam01_assault02_place08_day_spring_person2_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[353, 256, 453, 490], id:2 bbox:[217, 339, 278, 495], id:3 bbox:[267, 351, 348, 450]]\nframe31: persons: [id:1 bbox:[352, 270, 456, 490], id:2 bbox:[217, 334, 280, 495], id:3 bbox:[272, 344, 349, 449]]\nframe61: persons: [id:1 bbox:[371, 245, 460, 489], id:2 bbox:[214, 319, 284, 494], id:3 bbox:[265, 316, 347, 445]]\nframe91: persons: [id:1 bbox:[372, 263, 449, 487], id:2 bbox:[221, 324, 282, 495], id:3 bbox:[268, 325, 358, 424]]\nframe121: persons: [id:1 bbox:[372, 251, 452, 471], id:2 bbox:[222, 331, 282, 493], id:3 bbox:[269, 327, 361, 426]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a black jacket and black pants, is punching ID3, who is wearing a black jacket and blue pants"
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam02_assault01_place04_day_spring_person2_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[388, 201, 420, 324], id:2 bbox:[473, 182, 497, 328]]\nframe31: persons: [id:1 bbox:[373, 202, 411, 335], id:2 bbox:[474, 180, 498, 327], id:4 bbox:[503, 198, 529, 282]]\nframe61: persons: [id:1 bbox:[374, 195, 402, 326], id:2 bbox:[458, 182, 491, 324], id:4 bbox:[500, 193, 527, 279], id:5 bbox:[407, 269, 435, 309], id:3 bbox:[408, 268, 458, 320]]\nframe91: persons: [id:1 bbox:[369, 206, 397, 329], id:2 bbox:[451, 186, 485, 321], id:4 bbox:[501, 197, 525, 283], id:5 bbox:[403, 270, 432, 309], id:3 bbox:[404, 270, 451, 320]]\nframe121: persons: [id:1 bbox:[387, 189, 412, 299], id:2 bbox:[447, 179, 468, 300], id:4 bbox:[502, 202, 525, 282], id:3 bbox:[408, 268, 450, 324]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black jacket and black pants, and ID2, also wearing a black jacket and black pants, are kicking ID5, who is wearing a black sleeveless shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam01_assault01_place09_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[231, 288, 270, 432], id:2 bbox:[250, 379, 291, 454]]\nframe31: persons: [id:1 bbox:[230, 306, 279, 422], id:2 bbox:[255, 360, 298, 441]]\nframe61: persons: [id:1 bbox:[221, 296, 272, 420], id:2 bbox:[245, 358, 287, 426]]\nframe91: persons: [id:1 bbox:[233, 276, 292, 419], id:2 bbox:[254, 389, 289, 453]]\nframe121: persons: [id:1 bbox:[236, 262, 276, 415], id:2 bbox:[254, 361, 289, 452]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_summer_person1_pulling_seg8_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[406, 421, 453, 523], id:2 bbox:[464, 598, 541, 755], id:3 bbox:[378, 338, 412, 551], id:4 bbox:[339, 328, 372, 510]]\nframe31: persons: [id:1 bbox:[415, 424, 453, 530], id:2 bbox:[250, 489, 320, 756], id:3 bbox:[371, 361, 434, 555]]\nframe61: persons: [id:1 bbox:[435, 403, 483, 549], id:2 bbox:[120, 417, 179, 723], id:3 bbox:[387, 347, 458, 562]]\nframe91: persons: [id:1 bbox:[456, 417, 522, 576], id:2 bbox:[45, 370, 112, 631], id:3 bbox:[430, 355, 497, 564]]\nframe121: persons: [id:1 bbox:[514, 415, 560, 599], id:2 bbox:[1, 348, 57, 558], id:3 bbox:[436, 384, 526, 574]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a white shirt and gray pants, is punching ID1, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_summer_person1_pulling_seg10_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[578, 283, 619, 422], id:2 bbox:[551, 287, 589, 403]]\nframe31: persons: [id:1 bbox:[563, 288, 601, 429], id:2 bbox:[552, 282, 582, 401]]\nframe61: persons: [id:1 bbox:[571, 295, 625, 439], id:2 bbox:[553, 294, 586, 409]]\nframe91: persons: [id:1 bbox:[567, 292, 613, 436], id:2 bbox:[548, 281, 585, 398]]\nframe121: persons: [id:1 bbox:[596, 290, 636, 435], id:2 bbox:[543, 281, 584, 406]]"
+      },
+      {
+        "from": "gpt",
+        "value": "assault"
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam02_assault01_place04_day_spring_person3_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[443, 185, 468, 309], id:2 bbox:[374, 193, 401, 325]]\nframe31: persons: [id:2 bbox:[378, 201, 403, 327], id:3 bbox:[406, 265, 441, 321], id:4 bbox:[564, 189, 589, 246], id:1 bbox:[433, 185, 459, 301]]\nframe61: persons: [id:2 bbox:[375, 201, 403, 327], id:3 bbox:[409, 271, 452, 322], id:4 bbox:[564, 189, 588, 244], id:1 bbox:[429, 176, 454, 296]]\nframe91: persons: [id:2 bbox:[380, 199, 402, 326], id:3 bbox:[409, 271, 455, 322], id:1 bbox:[443, 181, 463, 298]]\nframe121: persons: [id:2 bbox:[374, 193, 400, 326], id:3 bbox:[407, 269, 451, 322], id:1 bbox:[431, 186, 456, 302], id:4 bbox:[564, 186, 589, 245]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and beige pants, is kicking ID3, who is wearing a black sleeveless shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam01_assault01_place03_day_spring_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[437, 333, 465, 477], id:2 bbox:[459, 321, 489, 458]]\nframe31: persons: [id:1 bbox:[428, 337, 474, 484], id:2 bbox:[455, 325, 486, 463]]\nframe61: persons: [id:1 bbox:[421, 353, 458, 513], id:2 bbox:[452, 344, 483, 469], id:3 bbox:[91, 358, 111, 410]]\nframe91: persons: [id:1 bbox:[425, 347, 457, 515], id:2 bbox:[458, 325, 489, 464], id:3 bbox:[106, 352, 130, 403]]\nframe121: persons: [id:1 bbox:[455, 334, 486, 464], id:2 bbox:[494, 336, 525, 437], id:4 bbox:[124, 340, 138, 392]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a checkered shirt and black pants, is punching ID2, who is wearing a checkered shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_threaten_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[303, 584, 427, 720], id:2 bbox:[362, 408, 424, 657]]\nframe31: persons: [id:1 bbox:[303, 573, 426, 752], id:2 bbox:[346, 438, 401, 652]]\nframe61: persons: [id:1 bbox:[302, 558, 425, 752], id:2 bbox:[340, 444, 402, 653]]\nframe91: persons: [id:1 bbox:[303, 602, 419, 755], id:2 bbox:[339, 439, 412, 652]]\nframe121: persons: [id:1 bbox:[307, 574, 423, 755], id:2 bbox:[343, 437, 417, 653]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is threatening ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-3_cam01_assault01_place09_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[81, 289, 125, 455], id:2 bbox:[191, 322, 268, 493]]\nframe31: persons: [id:1 bbox:[82, 293, 126, 455], id:2 bbox:[191, 321, 267, 492]]\nframe61: persons: [id:1 bbox:[114, 304, 208, 470], id:2 bbox:[192, 324, 267, 493]]\nframe91: persons: [id:2 bbox:[207, 318, 268, 497]]\nframe121: persons: [id:2 bbox:[204, 312, 268, 496]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is slapping ID1 who is wearing a white shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam01_assault01_place08_day_spring_person1_pulling_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[132, 382, 196, 582], id:2 bbox:[498, 394, 544, 587], id:3 bbox:[207, 361, 251, 521]]\nframe31: persons: [id:1 bbox:[159, 392, 216, 639], id:2 bbox:[468, 393, 529, 587]]\nframe61: persons: [id:1 bbox:[212, 382, 270, 605], id:2 bbox:[435, 386, 479, 592]]\nframe91: persons: [id:1 bbox:[254, 373, 312, 576], id:2 bbox:[399, 377, 438, 584]]\nframe121: persons: [id:1 bbox:[291, 365, 336, 566], id:2 bbox:[355, 373, 396, 575]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a black jacket and black jeans, is threatening ID1, who is wearing a white and black jacket and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam01_assault01_place09_day_spring_person1_throwing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[204, 335, 269, 542]]\nframe31: persons: [id:2 bbox:[142, 520, 260, 627]]\nframe61: persons: [id:2 bbox:[136, 484, 235, 610], id:1 bbox:[212, 317, 262, 529]]\nframe91: persons: [id:1 bbox:[213, 299, 266, 542], id:2 bbox:[151, 509, 271, 625]]\nframe121: persons: [id:1 bbox:[220, 298, 266, 538], id:2 bbox:[162, 493, 276, 622]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is throwing at ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-4_cam02_assault02_place08_day_summer_person2_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[596, 231, 646, 439], id:2 bbox:[582, 185, 630, 363], id:3 bbox:[485, 351, 560, 431]]\nframe31: persons: [id:1 bbox:[577, 231, 636, 451], id:2 bbox:[553, 198, 609, 377], id:3 bbox:[485, 354, 554, 430]]\nframe61: persons: [id:1 bbox:[574, 248, 638, 452], id:2 bbox:[521, 200, 591, 376], id:3 bbox:[474, 344, 563, 430]]\nframe91: persons: [id:1 bbox:[594, 260, 655, 491], id:2 bbox:[540, 200, 601, 382], id:3 bbox:[483, 342, 560, 414]]\nframe121: persons: [id:1 bbox:[596, 273, 663, 496], id:2 bbox:[557, 233, 620, 428], id:3 bbox:[481, 340, 560, 414]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a light-colored shirt and gray pants, is kicking ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_kicking_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[341, 527, 453, 748]]\nframe31: persons: [id:1 bbox:[279, 543, 395, 741], id:2 bbox:[379, 413, 448, 649]]\nframe61: persons: [id:1 bbox:[271, 575, 425, 740], id:2 bbox:[328, 429, 427, 660]]\nframe91: persons: [id:1 bbox:[270, 609, 331, 755], id:2 bbox:[360, 397, 425, 638]]\nframe121: persons: [id:1 bbox:[291, 570, 427, 734], id:2 bbox:[378, 391, 445, 625]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is kicking ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person2_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[388, 390, 452, 647], id:2 bbox:[194, 224, 225, 316], id:3 bbox:[264, 504, 380, 627]]\nframe31: persons: [id:1 bbox:[332, 394, 422, 697], id:2 bbox:[234, 249, 260, 313]]\nframe61: persons: [id:1 bbox:[302, 390, 415, 675], id:2 bbox:[272, 249, 292, 310]]\nframe91: persons: [id:1 bbox:[357, 379, 430, 663], id:3 bbox:[274, 481, 366, 647]]\nframe121: persons: [id:1 bbox:[405, 387, 463, 681], id:3 bbox:[274, 496, 364, 648]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is kicking ID3 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[226, 217, 272, 442], id:2 bbox:[282, 214, 329, 427]]\nframe31: persons: [id:1 bbox:[242, 225, 312, 462], id:2 bbox:[287, 213, 324, 429]]\nframe61: persons: [id:1 bbox:[265, 206, 298, 462], id:2 bbox:[288, 208, 326, 432]]\nframe91: persons: [id:1 bbox:[250, 210, 297, 463], id:2 bbox:[323, 207, 363, 392], id:3 bbox:[242, 192, 274, 276]]\nframe121: persons: [id:1 bbox:[248, 212, 312, 463], id:2 bbox:[331, 206, 371, 389], id:3 bbox:[241, 190, 274, 278]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is threatening and pushing ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-3_cam02_assault02_place08_day_spring_person2_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[606, 259, 672, 483], id:2 bbox:[591, 204, 634, 368]]\nframe31: persons: [id:1 bbox:[607, 260, 669, 483], id:2 bbox:[594, 214, 629, 363], id:3 bbox:[529, 327, 597, 418]]\nframe61: persons: [id:1 bbox:[589, 276, 663, 459], id:2 bbox:[589, 209, 621, 328], id:3 bbox:[532, 313, 594, 418]]\nframe91: persons: [id:1 bbox:[598, 250, 666, 467], id:2 bbox:[587, 209, 628, 367], id:3 bbox:[522, 313, 593, 400]]\nframe121: persons: [id:1 bbox:[593, 248, 666, 469], id:2 bbox:[589, 209, 629, 358], id:3 bbox:[515, 333, 593, 403]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light blue shirt and beige pants, is striking ID3, who is wearing a light blue shirt and black pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[300, 597, 427, 723], id:2 bbox:[361, 409, 413, 661]]\nframe31: persons: [id:1 bbox:[305, 578, 427, 748], id:2 bbox:[363, 409, 424, 652]]\nframe61: persons: [id:1 bbox:[304, 589, 426, 721], id:2 bbox:[336, 421, 405, 652]]\nframe91: persons: [id:1 bbox:[302, 565, 426, 751], id:2 bbox:[336, 444, 406, 653]]\nframe121: persons: [id:1 bbox:[302, 596, 423, 755], id:2 bbox:[342, 442, 413, 651]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is threatening ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-3_cam01_assault01_place09_day_summer_person1_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[249, 432, 335, 663]]\nframe31: persons: [id:1 bbox:[247, 389, 312, 680], id:2 bbox:[193, 578, 315, 755], id:3 bbox:[182, 247, 203, 303]]\nframe61: persons: [id:1 bbox:[244, 415, 327, 668], id:2 bbox:[193, 580, 315, 755], id:3 bbox:[200, 233, 226, 295]]\nframe91: persons: [id:1 bbox:[249, 417, 324, 664], id:2 bbox:[195, 581, 316, 755], id:4 bbox:[719, 675, 755, 755]]\nframe121: persons: [id:1 bbox:[249, 418, 322, 666], id:2 bbox:[195, 578, 315, 755], id:4 bbox:[719, 676, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_summer_person1_threaten_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[226, 213, 283, 464], id:2 bbox:[299, 201, 337, 386], id:3 bbox:[393, 210, 451, 495]]\nframe31: persons: [id:1 bbox:[225, 213, 283, 463], id:2 bbox:[294, 202, 333, 381], id:3 bbox:[404, 204, 475, 498]]\nframe61: persons: [id:1 bbox:[242, 215, 290, 461], id:2 bbox:[281, 207, 318, 398]]\nframe91: persons: [id:1 bbox:[246, 204, 287, 418], id:2 bbox:[280, 204, 313, 386]]\nframe121: persons: [id:1 bbox:[246, 206, 313, 421], id:2 bbox:[276, 206, 316, 381]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is threatening ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_summer_person1_punching_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[585, 289, 626, 434], id:2 bbox:[554, 278, 586, 409]]\nframe31: persons: [id:1 bbox:[562, 286, 604, 424], id:2 bbox:[549, 278, 576, 407]]\nframe61: persons: [id:1 bbox:[556, 278, 585, 418], id:2 bbox:[543, 274, 567, 401], id:4 bbox:[577, 286, 610, 402]]\nframe91: persons: [id:1 bbox:[558, 280, 588, 418], id:2 bbox:[540, 273, 564, 400], id:4 bbox:[580, 288, 614, 402]]\nframe121: persons: [id:1 bbox:[559, 279, 594, 425], id:2 bbox:[543, 272, 570, 400], id:4 bbox:[581, 288, 615, 405]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is threatening and slapping ID2, who is wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_summer_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[358, 365, 408, 568], id:2 bbox:[391, 333, 423, 485], id:3 bbox:[336, 373, 380, 544], id:4 bbox:[426, 260, 444, 352]]\nframe31: persons: [id:1 bbox:[353, 329, 405, 551], id:3 bbox:[317, 352, 354, 531], id:4 bbox:[426, 262, 445, 351]]\nframe61: persons: [id:1 bbox:[326, 337, 374, 547], id:3 bbox:[285, 357, 329, 524]]\nframe91: persons: [id:1 bbox:[307, 325, 357, 541], id:3 bbox:[273, 352, 312, 522]]\nframe121: persons: [id:1 bbox:[281, 323, 337, 531], id:3 bbox:[246, 364, 292, 510]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and gray pants, is punching ID3, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-1_cam02_assault03_place05_day_summer_person1_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[338, 420, 415, 662]]\nframe31: persons: [id:1 bbox:[379, 420, 448, 645], id:2 bbox:[330, 642, 420, 755], id:3 bbox:[685, 219, 702, 294]]\nframe61: persons: [id:1 bbox:[355, 435, 457, 681], id:2 bbox:[330, 644, 416, 755], id:3 bbox:[672, 212, 689, 280]]\nframe91: persons: [id:1 bbox:[354, 437, 437, 694], id:2 bbox:[329, 646, 409, 755]]\nframe121: persons: [id:1 bbox:[358, 444, 438, 706], id:2 bbox:[330, 648, 410, 755], id:3 bbox:[659, 204, 673, 262]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue jeans, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[292, 214, 335, 431], id:2 bbox:[247, 214, 299, 461]]\nframe31: persons: [id:1 bbox:[268, 211, 315, 436], id:2 bbox:[242, 211, 277, 460]]\nframe61: persons: [id:1 bbox:[276, 212, 321, 438], id:2 bbox:[247, 211, 298, 458], id:4 bbox:[336, 198, 373, 427]]\nframe91: persons: [id:1 bbox:[292, 206, 335, 402], id:2 bbox:[216, 210, 283, 462], id:4 bbox:[381, 210, 425, 494]]\nframe121: persons: [id:1 bbox:[302, 199, 341, 382], id:2 bbox:[225, 213, 284, 464], id:4 bbox:[396, 199, 473, 494]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is pushing ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-1_cam02_assault03_place05_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[370, 371, 432, 567]]\nframe31: persons: [id:1 bbox:[379, 401, 449, 563], id:2 bbox:[354, 523, 456, 703]]\nframe61: persons: [id:1 bbox:[385, 368, 450, 579], id:2 bbox:[359, 570, 451, 713]]\nframe91: persons: [id:1 bbox:[392, 354, 435, 591], id:2 bbox:[358, 571, 450, 707]]\nframe121: persons: [id:1 bbox:[376, 392, 441, 592], id:2 bbox:[358, 579, 452, 706]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue jeans, is punching ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-6_cam02_assault01_place03_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[178, 486, 242, 679], id:2 bbox:[110, 397, 175, 666], id:3 bbox:[31, 304, 49, 380]]\nframe31: persons: [id:1 bbox:[178, 471, 246, 679], id:2 bbox:[110, 397, 175, 670], id:3 bbox:[28, 303, 46, 374]]\nframe61: persons: [id:1 bbox:[178, 471, 247, 680], id:2 bbox:[106, 418, 206, 686], id:3 bbox:[25, 298, 44, 368]]\nframe91: persons: [id:1 bbox:[239, 511, 315, 622], id:2 bbox:[190, 366, 239, 596], id:3 bbox:[25, 298, 42, 362]]\nframe121: persons: [id:2 bbox:[187, 339, 237, 542], id:3 bbox:[16, 296, 36, 358], id:1 bbox:[237, 499, 326, 606]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a gray shirt and black pants, is slapping ID1, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "7-3_cam02_assault01_place04_day_spring_person2_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[404, 200, 438, 358], id:2 bbox:[481, 264, 516, 440], id:3 bbox:[343, 220, 371, 372], id:4 bbox:[502, 278, 556, 472]]\nframe31: persons: [id:2 bbox:[414, 218, 445, 366], id:3 bbox:[355, 219, 390, 372], id:4 bbox:[444, 257, 499, 438]]\nframe61: persons: [id:4 bbox:[411, 235, 450, 390], id:2 bbox:[383, 199, 409, 331], id:3 bbox:[366, 215, 390, 374]]\nframe91: persons: [id:4 bbox:[373, 230, 417, 377], id:3 bbox:[358, 201, 397, 338], id:2 bbox:[384, 193, 410, 249]]\nframe121: persons: [id:4 bbox:[337, 201, 379, 370], id:2 bbox:[389, 185, 417, 289]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a black jacket and beige pants, is kicking ID2, who is wearing a black jacket and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_spring_person2_punching_seg10_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[617, 297, 657, 424]]\nframe31: persons: [id:1 bbox:[557, 299, 609, 438], id:2 bbox:[521, 296, 560, 437]]\nframe61: persons: [id:1 bbox:[552, 313, 590, 465], id:2 bbox:[530, 302, 569, 430]]\nframe91: persons: [id:1 bbox:[537, 307, 580, 444]]\nframe121: persons: [id:1 bbox:[526, 282, 558, 407], id:2 bbox:[582, 299, 606, 434]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white and black jacket and black pants, is kicking and punching ID2, who is wearing a black jacket and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[354, 525, 422, 736], id:2 bbox:[403, 389, 463, 621]]\nframe31: persons: [id:1 bbox:[352, 556, 427, 739], id:2 bbox:[401, 387, 460, 622]]\nframe61: persons: [id:1 bbox:[349, 526, 434, 740], id:2 bbox:[381, 421, 438, 593]]\nframe91: persons: [id:1 bbox:[322, 588, 396, 746], id:2 bbox:[368, 417, 434, 650]]\nframe121: persons: [id:1 bbox:[271, 585, 425, 755], id:2 bbox:[361, 422, 427, 665]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and white pants, is kicking ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[256, 384, 312, 505], id:2 bbox:[203, 224, 230, 314]]\nframe31: persons: [id:1 bbox:[255, 397, 321, 510], id:3 bbox:[222, 479, 307, 583]]\nframe61: persons: [id:3 bbox:[221, 443, 299, 584], id:1 bbox:[261, 372, 305, 484]]\nframe91: persons: [id:3 bbox:[223, 450, 285, 582], id:1 bbox:[228, 382, 308, 545]]\nframe121: persons: [id:3 bbox:[222, 495, 335, 601], id:1 bbox:[264, 387, 336, 538], id:4 bbox:[35, 223, 56, 301]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID3 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-4_cam01_assault01_place08_day_summer_person1_punching_seg8_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[245, 298, 292, 484], id:2 bbox:[281, 304, 312, 458]]\nframe31: persons: [id:1 bbox:[238, 303, 274, 483], id:2 bbox:[283, 301, 317, 459]]\nframe61: persons: [id:1 bbox:[249, 297, 289, 474], id:2 bbox:[286, 303, 316, 458]]\nframe91: persons: [id:1 bbox:[253, 301, 286, 461], id:2 bbox:[286, 315, 318, 466]]\nframe121: persons: [id:1 bbox:[239, 304, 284, 466], id:2 bbox:[286, 326, 318, 466]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is punching ID2, who is wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[629, 479, 755, 755], id:2 bbox:[530, 495, 667, 755], id:3 bbox:[332, 424, 402, 569]]\nframe31: persons: [id:2 bbox:[588, 509, 726, 755], id:3 bbox:[338, 423, 401, 568]]\nframe61: persons: [id:2 bbox:[572, 452, 707, 754], id:4 bbox:[302, 391, 421, 636]]\nframe91: persons: [id:2 bbox:[607, 394, 740, 657], id:4 bbox:[167, 289, 265, 535], id:3 bbox:[272, 394, 350, 496]]\nframe121: persons: [id:2 bbox:[631, 367, 755, 652], id:4 bbox:[112, 268, 208, 530], id:3 bbox:[273, 416, 373, 540]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID4, who is wearing a light-colored shirt and black pants, is kicking ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-3_cam01_assault01_place09_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[355, 434, 511, 755], id:2 bbox:[417, 534, 552, 755]]\nframe31: persons: [id:1 bbox:[344, 422, 487, 755], id:2 bbox:[475, 545, 562, 755]]\nframe61: persons: [id:1 bbox:[323, 411, 392, 752], id:2 bbox:[406, 499, 514, 755]]\nframe91: persons: [id:1 bbox:[208, 419, 314, 637], id:2 bbox:[369, 409, 435, 744], id:4 bbox:[718, 673, 755, 755]]\nframe121: persons: [id:1 bbox:[188, 402, 270, 576], id:2 bbox:[324, 379, 390, 698], id:4 bbox:[719, 674, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam01_assault01_place08_day_spring_person1_pulling_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[181, 343, 222, 492], id:2 bbox:[212, 349, 248, 546]]\nframe31: persons: [id:1 bbox:[159, 337, 207, 497], id:2 bbox:[211, 350, 251, 545]]\nframe61: persons: [id:1 bbox:[152, 332, 191, 486], id:2 bbox:[213, 344, 252, 529]]\nframe91: persons: [id:1 bbox:[140, 336, 184, 488], id:2 bbox:[189, 341, 227, 500]]\nframe121: persons: [id:2 bbox:[165, 338, 207, 497], id:3 bbox:[120, 342, 164, 496]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white and black jacket and black jeans, is punching ID1, who is wearing a white and black jacket and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_spring_person2_pulling_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[377, 344, 443, 556], id:2 bbox:[336, 397, 388, 564]]\nframe31: persons: [id:1 bbox:[354, 352, 411, 575], id:2 bbox:[297, 403, 358, 610]]\nframe61: persons: [id:1 bbox:[330, 360, 378, 611], id:2 bbox:[297, 392, 349, 613]]\nframe91: persons: [id:2 bbox:[331, 411, 377, 586], id:1 bbox:[309, 339, 359, 573]]\nframe121: persons: [id:2 bbox:[368, 412, 414, 546], id:1 bbox:[286, 347, 329, 569]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black and white jacket and gray pants, is violently pulling and pushing ID2, who is wearing a black jacket and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_summer_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[287, 81, 335, 322], id:2 bbox:[301, 238, 392, 437]]\nframe31: persons: [id:1 bbox:[299, 88, 351, 329], id:2 bbox:[259, 326, 343, 507]]\nframe61: persons: [id:1 bbox:[254, 128, 346, 389], id:2 bbox:[246, 340, 320, 574]]\nframe91: persons: [id:1 bbox:[232, 130, 319, 383], id:2 bbox:[190, 371, 328, 582]]\nframe121: persons: [id:1 bbox:[231, 135, 314, 391], id:2 bbox:[206, 366, 333, 593]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_summer_person2_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[202, 349, 273, 559], id:2 bbox:[170, 524, 252, 680]]\nframe31: persons: [id:1 bbox:[207, 433, 261, 563], id:2 bbox:[164, 524, 255, 684], id:3 bbox:[724, 678, 755, 755]]\nframe61: persons: [id:1 bbox:[210, 438, 303, 593], id:2 bbox:[179, 572, 302, 697], id:3 bbox:[725, 679, 755, 755]]\nframe91: persons: [id:1 bbox:[223, 344, 289, 605], id:2 bbox:[188, 583, 324, 726], id:3 bbox:[725, 679, 755, 755]]\nframe121: persons: [id:1 bbox:[245, 319, 303, 595], id:2 bbox:[173, 584, 321, 743], id:3 bbox:[725, 679, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam01_assault01_place01_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[411, 268, 469, 442], id:2 bbox:[378, 274, 419, 456], id:3 bbox:[334, 306, 374, 502]]\nframe31: persons: [id:1 bbox:[409, 263, 456, 443], id:2 bbox:[376, 274, 405, 443], id:3 bbox:[340, 293, 384, 495]]\nframe61: persons: [id:1 bbox:[357, 281, 425, 471], id:3 bbox:[338, 300, 384, 494]]\nframe91: persons: [id:3 bbox:[326, 311, 364, 498], id:2 bbox:[360, 283, 426, 460], id:1 bbox:[392, 279, 430, 470]]\nframe121: persons: [id:3 bbox:[340, 301, 374, 501], id:2 bbox:[385, 286, 454, 462], id:1 bbox:[411, 277, 456, 454]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and blue jeans, is pushing ID3, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam01_assault01_place09_day_spring_person2_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[169, 455, 260, 576], id:-1 bbox:[232, 259, 269, 461], id:-1 bbox:[723, 676, 755, 755], id:-1 bbox:[352, 397, 382, 444]]\nframe31: persons: [id:1 bbox:[188, 428, 261, 593], id:2 bbox:[199, 281, 246, 455], id:3 bbox:[721, 678, 755, 755]]\nframe61: persons: [id:1 bbox:[207, 494, 270, 609], id:2 bbox:[199, 289, 244, 524], id:3 bbox:[721, 676, 755, 755]]\nframe91: persons: [id:1 bbox:[211, 491, 306, 623], id:2 bbox:[179, 277, 230, 517], id:3 bbox:[720, 676, 755, 755]]\nframe121: persons: [id:1 bbox:[198, 514, 307, 616], id:2 bbox:[180, 282, 235, 518], id:3 bbox:[721, 677, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is kicking ID1 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-6_cam02_assault02_place08_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[672, 191, 719, 337], id:2 bbox:[614, 292, 677, 404], id:3 bbox:[603, 287, 643, 366]]\nframe31: persons: [id:1 bbox:[669, 188, 718, 336], id:2 bbox:[616, 294, 677, 409], id:3 bbox:[603, 285, 646, 365]]\nframe61: persons: [id:1 bbox:[669, 192, 717, 325], id:2 bbox:[617, 293, 694, 409], id:3 bbox:[603, 282, 645, 364]]\nframe91: persons: [id:1 bbox:[670, 182, 709, 336], id:2 bbox:[622, 293, 680, 413], id:3 bbox:[583, 295, 629, 364]]\nframe121: persons: [id:1 bbox:[668, 181, 707, 324], id:2 bbox:[622, 296, 677, 420], id:3 bbox:[583, 294, 628, 364]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a light-colored shirt and beige pants, is slapping ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_spring_person1_pushing_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[346, 241, 402, 509], id:2 bbox:[401, 233, 459, 469], id:3 bbox:[471, 241, 557, 516]]\nframe31: persons: [id:1 bbox:[350, 229, 420, 510], id:2 bbox:[399, 233, 451, 484], id:3 bbox:[469, 232, 539, 486]]\nframe61: persons: [id:1 bbox:[335, 222, 395, 509], id:2 bbox:[397, 217, 464, 471], id:3 bbox:[469, 228, 536, 487]]\nframe91: persons: [id:1 bbox:[348, 240, 404, 510], id:2 bbox:[399, 247, 465, 475], id:3 bbox:[468, 234, 539, 492]]\nframe121: persons: [id:1 bbox:[350, 233, 426, 510], id:2 bbox:[397, 234, 452, 471], id:3 bbox:[462, 260, 530, 518]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a balck jacket and gray pants, is pushing ID2, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_spring_person1_threaten_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[263, 211, 307, 436], id:2 bbox:[166, 236, 233, 544]]\nframe31: persons: [id:1 bbox:[259, 211, 309, 435], id:2 bbox:[195, 224, 254, 509]]\nframe61: persons: [id:1 bbox:[264, 212, 307, 424], id:2 bbox:[225, 216, 280, 476]]\nframe91: persons: [id:1 bbox:[278, 216, 309, 419], id:2 bbox:[248, 212, 304, 455]]\nframe121: persons: [id:2 bbox:[248, 210, 303, 457]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is threatening ID1 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam01_assault01_place03_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[420, 342, 452, 492], id:2 bbox:[450, 330, 485, 466]]\nframe31: persons: [id:1 bbox:[420, 341, 454, 498], id:2 bbox:[441, 324, 484, 463]]\nframe61: persons: [id:1 bbox:[439, 328, 465, 484], id:2 bbox:[457, 325, 485, 462]]\nframe91: persons: [id:1 bbox:[468, 322, 491, 468], id:2 bbox:[482, 309, 510, 433]]\nframe121: persons: [id:1 bbox:[495, 304, 524, 424], id:2 bbox:[512, 330, 534, 401]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a black shirt and black pants, is pushing and punching ID2, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam01_assault01_place09_day_summer_person1_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[234, 255, 275, 397]]\nframe31: persons: [id:1 bbox:[237, 253, 271, 394], id:2 bbox:[244, 376, 283, 448]]\nframe61: persons: [id:1 bbox:[236, 253, 268, 396], id:2 bbox:[238, 372, 283, 449]]\nframe91: persons: [id:1 bbox:[250, 256, 286, 397], id:2 bbox:[240, 370, 284, 448]]\nframe121: persons: [id:1 bbox:[254, 258, 284, 390], id:2 bbox:[238, 368, 284, 448]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_summer_person1_kicking_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[231, 351, 336, 627], id:2 bbox:[227, 430, 271, 547], id:3 bbox:[284, 242, 312, 312]]\nframe31: persons: [id:1 bbox:[257, 358, 317, 640], id:2 bbox:[222, 439, 271, 582], id:3 bbox:[274, 249, 294, 309]]\nframe61: persons: [id:1 bbox:[247, 347, 329, 616], id:2 bbox:[224, 457, 280, 580], id:3 bbox:[253, 249, 275, 297]]\nframe91: persons: [id:3 bbox:[240, 249, 264, 331], id:4 bbox:[240, 355, 330, 637]]\nframe121: persons: [id:3 bbox:[223, 246, 252, 339], id:1 bbox:[283, 353, 352, 638]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-4_cam02_assault02_place08_day_spring_person2_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[511, 248, 564, 437], id:2 bbox:[555, 201, 598, 395], id:3 bbox:[598, 176, 639, 352]]\nframe31: persons: [id:1 bbox:[501, 268, 562, 440], id:2 bbox:[540, 213, 594, 404], id:3 bbox:[598, 178, 639, 342]]\nframe61: persons: [id:1 bbox:[486, 259, 546, 451], id:2 bbox:[516, 218, 594, 425], id:3 bbox:[599, 168, 656, 343]]\nframe91: persons: [id:1 bbox:[462, 309, 534, 478], id:2 bbox:[520, 222, 569, 424], id:3 bbox:[602, 176, 643, 310]]\nframe121: persons: [id:1 bbox:[446, 259, 504, 473], id:2 bbox:[520, 221, 586, 420], id:3 bbox:[603, 179, 644, 322]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and gray pants, is kicking ID1, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam02_assault01_place09_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[483, 239, 546, 453], id:2 bbox:[513, 278, 548, 418]]\nframe31: persons: [id:1 bbox:[485, 238, 554, 457], id:2 bbox:[515, 257, 554, 429], id:4 bbox:[628, 259, 645, 354]]\nframe61: persons: [id:1 bbox:[489, 243, 532, 460], id:2 bbox:[524, 298, 549, 436], id:4 bbox:[574, 250, 594, 345]]\nframe91: persons: [id:1 bbox:[471, 252, 532, 470], id:4 bbox:[532, 233, 555, 311], id:2 bbox:[508, 295, 555, 446]]\nframe121: persons: [id:1 bbox:[470, 245, 549, 477], id:2 bbox:[518, 304, 566, 480]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-2_cam02_assault01_place03_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[169, 300, 226, 509]]\nframe31: persons: [id:1 bbox:[166, 296, 225, 485], id:2 bbox:[154, 294, 196, 469], id:4 bbox:[346, 120, 354, 161]]\nframe61: persons: [id:1 bbox:[131, 278, 232, 485], id:6 bbox:[436, 141, 454, 188], id:2 bbox:[142, 297, 182, 475]]\nframe91: persons: [id:1 bbox:[195, 294, 240, 499], id:2 bbox:[142, 302, 199, 470], id:6 bbox:[348, 137, 364, 178], id:4 bbox:[368, 123, 381, 162]]\nframe121: persons: [id:1 bbox:[199, 294, 240, 500], id:2 bbox:[146, 299, 196, 471]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black shirt and black pants, is grabbing ID2, also wearing a black shirt and black pants, by the collar."
+      }
+    ]
+  },
+  {
+    "video": "21-3_cam02_assault01_place09_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[216, 251, 251, 383], id:2 bbox:[245, 280, 307, 438]]\nframe31: persons: [id:1 bbox:[213, 250, 247, 386], id:2 bbox:[246, 279, 307, 430]]\nframe61: persons: [id:1 bbox:[217, 257, 258, 391], id:2 bbox:[247, 280, 308, 434]]\nframe91: persons: [id:1 bbox:[108, 330, 199, 523], id:2 bbox:[259, 283, 308, 438]]\nframe121: persons: [id:2 bbox:[257, 277, 307, 433]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is pushing ID2 who is wearing a white shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam02_assault01_place09_day_spring_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[220, 220, 280, 480], id:2 bbox:[166, 252, 224, 562]]\nframe31: persons: [id:1 bbox:[146, 238, 253, 533], id:2 bbox:[111, 263, 178, 592]]\nframe61: persons: [id:1 bbox:[167, 240, 227, 559], id:2 bbox:[129, 249, 199, 613]]\nframe91: persons: [id:1 bbox:[204, 231, 262, 506], id:2 bbox:[131, 244, 200, 596]]\nframe121: persons: [id:1 bbox:[215, 222, 264, 498], id:2 bbox:[167, 245, 238, 552]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 wearing checkered shirt and blue pants and ID1 wearing checkered shirt and black pants are pushing each other."
+      }
+    ]
+  },
+  {
+    "video": "13-1_cam02_assault02_place08_day_summer_person1_threaten_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[660, 267, 725, 451], id:2 bbox:[597, 257, 636, 360], id:3 bbox:[641, 210, 698, 362]]\nframe31: persons: [id:1 bbox:[660, 302, 737, 496], id:2 bbox:[593, 286, 631, 375], id:3 bbox:[648, 202, 700, 380]]\nframe61: persons: [id:1 bbox:[658, 302, 729, 530], id:2 bbox:[592, 296, 632, 384], id:3 bbox:[651, 200, 698, 381]]\nframe91: persons: [id:1 bbox:[660, 318, 736, 531], id:3 bbox:[637, 224, 686, 395], id:2 bbox:[590, 297, 634, 400]]\nframe121: persons: [id:1 bbox:[660, 322, 750, 531], id:3 bbox:[644, 214, 698, 395], id:2 bbox:[590, 298, 633, 401]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a light-colored shirt and beige pants, is striking ID2, who is wearing a light-colored shirt, with a stick."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam02_assault02_place08_day_summer_person3_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[602, 256, 664, 456], id:2 bbox:[586, 220, 633, 354], id:3 bbox:[529, 325, 574, 408]]\nframe31: persons: [id:1 bbox:[602, 246, 658, 455], id:2 bbox:[586, 213, 630, 350], id:3 bbox:[529, 297, 575, 410]]\nframe61: persons: [id:1 bbox:[564, 217, 645, 350], id:3 bbox:[530, 304, 569, 406]]\nframe91: persons: [id:1 bbox:[603, 243, 664, 462], id:3 bbox:[505, 334, 563, 422], id:2 bbox:[586, 213, 628, 374]]\nframe121: persons: [id:1 bbox:[603, 267, 672, 478], id:3 bbox:[501, 333, 564, 420], id:2 bbox:[586, 224, 622, 367]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and gray pants, is kicking ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "13-1_cam02_assault02_place08_day_spring_person1_punching_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[641, 185, 675, 340], id:-1 bbox:[577, 319, 666, 432], id:-1 bbox:[643, 186, 675, 264], id:-1 bbox:[668, 164, 705, 326]]\nframe31: persons: [id:1 bbox:[638, 207, 671, 352], id:2 bbox:[576, 319, 664, 436], id:3 bbox:[668, 180, 713, 320]]\nframe61: persons: [id:1 bbox:[648, 225, 688, 368], id:2 bbox:[579, 334, 661, 434], id:3 bbox:[674, 193, 726, 334]]\nframe91: persons: [id:1 bbox:[647, 215, 686, 363], id:2 bbox:[575, 321, 664, 435], id:3 bbox:[670, 186, 715, 335]]\nframe121: persons: [id:1 bbox:[628, 209, 671, 353], id:2 bbox:[580, 332, 671, 429], id:3 bbox:[671, 202, 727, 347]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black jacket and light pants, is striking ID3, who is wearing a dark jacket and black pants, with a stick "
+      }
+    ]
+  },
+  {
+    "video": "21-5_cam01_assault01_place09_day_spring_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[222, 339, 288, 503]]\nframe31: persons: [id:1 bbox:[221, 336, 287, 503], id:2 bbox:[115, 365, 184, 515]]\nframe61: persons: [id:1 bbox:[214, 340, 287, 503], id:2 bbox:[145, 295, 234, 494]]\nframe91: persons: [id:1 bbox:[219, 323, 289, 527]]\nframe121: persons: [id:-1 bbox:[391, 543, 486, 740]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a checkered shirt and blue jeans, is slapping ID1, who is wearing a checkered shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam01_assault01_place09_day_summer_person1_pushing_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[359, 368, 432, 683], id:2 bbox:[282, 331, 360, 619]]\nframe31: persons: [id:1 bbox:[353, 364, 430, 655], id:2 bbox:[324, 346, 381, 620]]\nframe61: persons: [id:1 bbox:[349, 363, 418, 652], id:2 bbox:[332, 353, 394, 646]]\nframe91: persons: [id:1 bbox:[350, 381, 429, 689], id:2 bbox:[263, 306, 316, 569]]\nframe121: persons: [id:1 bbox:[276, 363, 357, 657], id:2 bbox:[204, 288, 249, 538]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is pushing ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_summer_person2_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[258, 216, 299, 349], id:2 bbox:[255, 339, 312, 436]]\nframe31: persons: [id:1 bbox:[256, 222, 292, 351], id:2 bbox:[255, 340, 313, 436]]\nframe61: persons: [id:1 bbox:[259, 210, 312, 388], id:2 bbox:[255, 348, 309, 437]]\nframe91: persons: [id:1 bbox:[277, 214, 315, 408], id:2 bbox:[256, 358, 316, 474]]\nframe121: persons: [id:1 bbox:[301, 208, 348, 405], id:2 bbox:[257, 366, 314, 475]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_spring_person1_threaten_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[297, 384, 359, 611], id:2 bbox:[236, 570, 314, 722]]\nframe31: persons: [id:1 bbox:[294, 391, 359, 611], id:2 bbox:[238, 560, 313, 722], id:3 bbox:[640, 187, 651, 232]]\nframe61: persons: [id:1 bbox:[277, 405, 346, 615], id:2 bbox:[239, 563, 313, 723], id:3 bbox:[636, 183, 644, 225]]\nframe91: persons: [id:1 bbox:[310, 371, 353, 606], id:2 bbox:[239, 565, 311, 722], id:3 bbox:[630, 179, 640, 220], id:4 bbox:[692, 242, 708, 294]]\nframe121: persons: [id:1 bbox:[355, 342, 405, 572], id:2 bbox:[238, 568, 314, 723]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black checkered shirt and white pants, is threatening ID2, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-3_cam01_assault01_place01_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[584, 354, 630, 511], id:2 bbox:[349, 279, 405, 477], id:3 bbox:[396, 342, 450, 481]]\nframe31: persons: [id:1 bbox:[530, 375, 589, 547], id:2 bbox:[342, 272, 399, 483], id:3 bbox:[393, 320, 448, 472]]\nframe61: persons: [id:1 bbox:[495, 396, 551, 605], id:2 bbox:[345, 271, 396, 481], id:3 bbox:[393, 310, 444, 464]]\nframe91: persons: [id:1 bbox:[450, 449, 509, 644], id:2 bbox:[345, 282, 395, 476], id:3 bbox:[389, 308, 438, 464]]\nframe121: persons: [id:1 bbox:[348, 501, 416, 704], id:2 bbox:[344, 280, 404, 476], id:3 bbox:[389, 310, 430, 468]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a white jacket and blue jeans, is punching ID3, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "7-1_cam02_assault01_place04_day_summer_person3_punching_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[450, 153, 472, 268], id:2 bbox:[407, 171, 432, 276], id:3 bbox:[418, 229, 461, 309]]\nframe31: persons: [id:1 bbox:[435, 151, 453, 247], id:3 bbox:[418, 228, 455, 307], id:2 bbox:[402, 168, 429, 285]]\nframe61: persons: [id:1 bbox:[420, 156, 438, 252], id:3 bbox:[416, 236, 456, 309], id:2 bbox:[404, 155, 439, 291]]\nframe91: persons: [id:3 bbox:[416, 227, 454, 309], id:2 bbox:[395, 176, 427, 297], id:1 bbox:[394, 160, 420, 211]]\nframe121: persons: [id:2 bbox:[406, 174, 438, 287], id:1 bbox:[381, 165, 409, 284]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and beige pants, is slapping ID3, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam02_assault02_place08_day_summer_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[649, 262, 748, 435], id:2 bbox:[512, 199, 562, 412], id:3 bbox:[585, 310, 632, 420]]\nframe31: persons: [id:1 bbox:[643, 250, 704, 414], id:2 bbox:[502, 290, 560, 425], id:3 bbox:[586, 310, 633, 420]]\nframe61: persons: [id:1 bbox:[644, 247, 701, 413], id:2 bbox:[490, 280, 573, 427], id:3 bbox:[586, 309, 634, 421]]\nframe91: persons: [id:1 bbox:[649, 230, 709, 413], id:2 bbox:[474, 301, 543, 426], id:3 bbox:[585, 323, 631, 421]]\nframe121: persons: [id:1 bbox:[654, 262, 719, 442], id:2 bbox:[476, 308, 545, 427], id:3 bbox:[586, 324, 629, 434]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and beige pants, is striking ID3, who is wearing a light-colored shirt, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_summer_person1_kicking_seg16_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[164, 159, 230, 394]]\nframe31: persons: [id:1 bbox:[153, 162, 230, 392], id:2 bbox:[95, 351, 214, 465]]\nframe61: persons: [id:1 bbox:[168, 169, 237, 426], id:2 bbox:[95, 353, 215, 464], id:3 bbox:[596, 34, 620, 111]]\nframe91: persons: [id:1 bbox:[173, 170, 258, 422], id:2 bbox:[95, 367, 211, 465], id:3 bbox:[598, 35, 621, 113]]\nframe121: persons: [id:1 bbox:[168, 170, 241, 450], id:2 bbox:[96, 367, 205, 465], id:3 bbox:[598, 38, 621, 118]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam01_assault02_place08_day_summer_person2_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[341, 240, 409, 500], id:2 bbox:[390, 382, 452, 552], id:3 bbox:[406, 280, 463, 433]]\nframe31: persons: [id:1 bbox:[336, 316, 410, 488], id:2 bbox:[389, 382, 450, 552], id:3 bbox:[408, 313, 461, 434]]\nframe61: persons: [id:1 bbox:[340, 345, 397, 484], id:2 bbox:[385, 324, 450, 551]]\nframe91: persons: [id:2 bbox:[389, 377, 451, 553], id:3 bbox:[407, 305, 459, 431], id:1 bbox:[344, 334, 403, 472]]\nframe121: persons: [id:2 bbox:[389, 378, 450, 554], id:3 bbox:[410, 315, 459, 430], id:1 bbox:[348, 312, 402, 486]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and beige pants, is slapping ID3, who is wearing a light-colored shirt"
+      }
+    ]
+  },
+  {
+    "video": "5-4_cam02_assault01_place08_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[549, 321, 579, 464], id:2 bbox:[569, 322, 607, 472]]\nframe31: persons: [id:1 bbox:[534, 324, 572, 465], id:2 bbox:[563, 316, 597, 462]]\nframe61: persons: [id:1 bbox:[506, 335, 541, 481], id:2 bbox:[548, 322, 584, 466]]\nframe91: persons: [id:1 bbox:[481, 344, 515, 496], id:2 bbox:[504, 335, 554, 485]]\nframe121: persons: [id:1 bbox:[409, 372, 463, 554], id:2 bbox:[497, 335, 524, 496]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and black pants, is pushing ID2, who is wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "7-1_cam02_assault01_place04_day_summer_person3_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[451, 191, 478, 326], id:2 bbox:[418, 168, 450, 293], id:3 bbox:[397, 158, 419, 251], id:4 bbox:[387, 189, 411, 337]]\nframe31: persons: [id:1 bbox:[446, 191, 470, 329], id:2 bbox:[403, 173, 430, 305], id:3 bbox:[399, 160, 420, 233], id:4 bbox:[378, 186, 400, 333]]\nframe61: persons: [id:1 bbox:[431, 187, 459, 311], id:4 bbox:[376, 184, 414, 330]]\nframe91: persons: [id:1 bbox:[412, 175, 440, 292], id:4 bbox:[370, 223, 402, 326], id:2 bbox:[381, 182, 404, 256]]\nframe121: persons: [id:1 bbox:[399, 164, 420, 281], id:4 bbox:[358, 214, 389, 333], id:2 bbox:[377, 174, 400, 295]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and beige pants, is punching ID4, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_spring_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[242, 213, 302, 432], id:2 bbox:[192, 217, 247, 450]]\nframe31: persons: [id:1 bbox:[253, 215, 299, 435], id:2 bbox:[195, 225, 247, 450]]\nframe61: persons: [id:1 bbox:[254, 213, 302, 434], id:2 bbox:[216, 217, 257, 469]]\nframe91: persons: [id:1 bbox:[252, 212, 300, 424], id:2 bbox:[217, 216, 255, 465]]\nframe121: persons: [id:1 bbox:[263, 211, 316, 422], id:2 bbox:[213, 215, 255, 465]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is threatening ID1 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_spring_person2_pulling_seg10_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[399, 398, 439, 484], id:2 bbox:[433, 359, 489, 554], id:3 bbox:[486, 448, 526, 555]]\nframe31: persons: [id:1 bbox:[399, 398, 438, 484], id:2 bbox:[447, 358, 494, 559], id:3 bbox:[488, 437, 527, 555]]\nframe61: persons: [id:1 bbox:[399, 397, 438, 484], id:2 bbox:[442, 356, 499, 560], id:3 bbox:[478, 419, 526, 555]]\nframe91: persons: [id:1 bbox:[399, 398, 438, 484], id:2 bbox:[440, 372, 488, 605], id:3 bbox:[478, 409, 525, 590]]\nframe121: persons: [id:1 bbox:[399, 398, 438, 484], id:2 bbox:[429, 372, 494, 589], id:3 bbox:[540, 468, 583, 615]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a black and white jacket and gray pants, is punching ID3, who is wearing a black shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_spring_person1_pushing_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[440, 321, 526, 611], id:2 bbox:[346, 262, 411, 538], id:3 bbox:[382, 238, 444, 470]]\nframe31: persons: [id:1 bbox:[437, 326, 524, 613], id:2 bbox:[347, 257, 409, 538], id:3 bbox:[393, 253, 444, 471]]\nframe61: persons: [id:1 bbox:[436, 333, 524, 613], id:2 bbox:[336, 218, 418, 532], id:3 bbox:[390, 229, 450, 465]]\nframe91: persons: [id:1 bbox:[436, 324, 517, 614], id:2 bbox:[329, 217, 400, 498], id:3 bbox:[394, 272, 459, 457]]\nframe121: persons: [id:1 bbox:[433, 324, 522, 613], id:2 bbox:[357, 225, 419, 490], id:3 bbox:[396, 295, 458, 461]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a balck jacket and gray pants, is pushing ID3, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "8-1_cam02_assault03_place05_day_spring_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[361, 367, 423, 662]]\nframe31: persons: [id:1 bbox:[351, 368, 424, 660], id:2 bbox:[389, 349, 432, 563]]\nframe61: persons: [id:1 bbox:[353, 381, 422, 656], id:2 bbox:[378, 353, 432, 559]]\nframe91: persons: [id:2 bbox:[368, 342, 414, 536], id:1 bbox:[357, 530, 432, 712]]\nframe121: persons: [id:2 bbox:[365, 353, 419, 567], id:1 bbox:[352, 531, 425, 712]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and blue jeans, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-4_cam02_assault01_place09_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[246, 280, 303, 424], id:2 bbox:[215, 271, 247, 385]]\nframe31: persons: [id:1 bbox:[245, 281, 302, 422], id:2 bbox:[211, 271, 246, 389]]\nframe61: persons: [id:1 bbox:[245, 281, 303, 424], id:2 bbox:[200, 267, 246, 401]]\nframe91: persons: [id:1 bbox:[258, 287, 329, 444], id:2 bbox:[126, 322, 197, 487]]\nframe121: persons: [id:1 bbox:[266, 250, 327, 444]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a white shirt and blue jeans, is slapping ID1 who is wearing a white shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam02_assault01_place01_day_summer_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[148, 223, 209, 358]]\nframe31: persons: [id:1 bbox:[146, 224, 213, 357], id:2 bbox:[142, 187, 175, 339]]\nframe61: persons: [id:1 bbox:[187, 296, 261, 383], id:2 bbox:[123, 173, 164, 328]]\nframe91: persons: [id:2 bbox:[97, 163, 134, 310], id:3 bbox:[126, 185, 166, 314], id:1 bbox:[192, 300, 262, 388]]\nframe121: persons: [id:1 bbox:[193, 295, 253, 387], id:2 bbox:[88, 157, 136, 313]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a beige shirt and blue jeans, is pushing ID1, who is wearing a white shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam01_assault01_place01_day_summer_person1_pushing_seg6_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[344, 285, 383, 488], id:2 bbox:[412, 277, 458, 450], id:3 bbox:[384, 288, 434, 464]]\nframe31: persons: [id:1 bbox:[353, 292, 404, 479], id:3 bbox:[404, 267, 461, 486]]\nframe61: persons: [id:1 bbox:[349, 285, 391, 479], id:3 bbox:[471, 326, 529, 493], id:2 bbox:[369, 268, 440, 450]]\nframe91: persons: [id:1 bbox:[320, 289, 360, 485], id:3 bbox:[490, 303, 534, 467], id:2 bbox:[392, 272, 422, 461]]\nframe121: persons: [id:1 bbox:[330, 293, 375, 484], id:3 bbox:[430, 308, 476, 484], id:2 bbox:[375, 279, 420, 461]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and blue jeans, is pushing ID1, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam02_assault01_place09_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[159, 241, 242, 565], id:2 bbox:[102, 270, 198, 658]]\nframe31: persons: [id:1 bbox:[163, 252, 242, 569], id:2 bbox:[65, 313, 160, 740]]\nframe61: persons: [id:1 bbox:[189, 307, 254, 569], id:2 bbox:[80, 278, 198, 662]]\nframe91: persons: [id:1 bbox:[242, 308, 311, 489], id:2 bbox:[122, 264, 206, 642]]\nframe121: persons: [id:1 bbox:[252, 286, 306, 489], id:2 bbox:[155, 256, 248, 640]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[286, 63, 341, 287], id:2 bbox:[323, 67, 380, 336]]\nframe31: persons: [id:1 bbox:[258, 63, 312, 287], id:2 bbox:[312, 80, 393, 340]]\nframe61: persons: [id:1 bbox:[253, 68, 320, 283], id:2 bbox:[306, 69, 363, 337]]\nframe91: persons: [id:1 bbox:[264, 66, 310, 314], id:2 bbox:[296, 50, 377, 327]]\nframe121: persons: [id:1 bbox:[241, 81, 302, 309], id:2 bbox:[295, 210, 378, 400]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is pushing and kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam02_assault01_place04_day_spring_person3_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[323, 191, 345, 310], id:-1 bbox:[348, 233, 383, 312], id:-1 bbox:[381, 170, 411, 290], id:-1 bbox:[563, 176, 589, 251], id:-1 bbox:[743, 104, 753, 130], id:-1 bbox:[349, 233, 372, 309]]\nframe31: persons: [id:1 bbox:[326, 195, 350, 317], id:2 bbox:[346, 258, 370, 308], id:3 bbox:[377, 177, 404, 285], id:4 bbox:[566, 177, 588, 246]]\nframe61: persons: [id:1 bbox:[310, 196, 346, 320], id:3 bbox:[388, 170, 409, 276], id:4 bbox:[565, 175, 587, 245], id:2 bbox:[342, 271, 368, 313]]\nframe91: persons: [id:1 bbox:[310, 190, 334, 308], id:3 bbox:[385, 171, 410, 278], id:4 bbox:[564, 178, 587, 244]]\nframe121: persons: [id:3 bbox:[348, 177, 390, 281], id:4 bbox:[563, 178, 588, 248], id:1 bbox:[316, 185, 339, 294]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a white shirt and beige pants, is kicking ID3, who is wearing a black sleeveless shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-4_cam02_assault02_place08_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[678, 237, 732, 416], id:2 bbox:[564, 279, 625, 394]]\nframe31: persons: [id:1 bbox:[678, 238, 732, 415], id:2 bbox:[554, 275, 623, 408], id:3 bbox:[595, 213, 644, 409]]\nframe61: persons: [id:1 bbox:[654, 244, 725, 419], id:2 bbox:[548, 244, 610, 381], id:3 bbox:[596, 227, 653, 428]]\nframe91: persons: [id:1 bbox:[634, 224, 685, 410], id:2 bbox:[489, 257, 571, 373], id:3 bbox:[591, 219, 651, 391]]\nframe121: persons: [id:1 bbox:[636, 237, 698, 405], id:2 bbox:[489, 265, 552, 377], id:3 bbox:[529, 240, 607, 442]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a light-colored shirt and beige pants, is punching ID2, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_spring_person2_pulling_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[212, 399, 288, 704], id:2 bbox:[395, 419, 460, 716], id:3 bbox:[304, 526, 370, 755]]\nframe31: persons: [id:1 bbox:[318, 500, 479, 755], id:2 bbox:[449, 473, 512, 755], id:3 bbox:[410, 588, 487, 755]]\nframe61: persons: [id:1 bbox:[361, 473, 460, 755], id:2 bbox:[470, 477, 533, 754], id:3 bbox:[421, 563, 498, 755]]\nframe91: persons: [id:1 bbox:[299, 381, 386, 671], id:2 bbox:[444, 459, 509, 756], id:3 bbox:[357, 465, 420, 702]]\nframe121: persons: [id:1 bbox:[274, 345, 330, 588], id:2 bbox:[414, 412, 487, 699], id:3 bbox:[325, 387, 378, 558]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black and white jacket and gray pants, is violently pulling ID3, who is wearing a black jacket and black pants."
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam02_assault01_place04_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[374, 198, 400, 291], id:2 bbox:[429, 225, 462, 308], id:3 bbox:[423, 176, 445, 275], id:4 bbox:[644, 209, 669, 278]]\nframe31: persons: [id:1 bbox:[377, 170, 400, 289], id:2 bbox:[431, 224, 461, 306], id:4 bbox:[360, 372, 430, 522], id:5 bbox:[512, 188, 536, 246], id:7 bbox:[421, 171, 443, 279], id:3 bbox:[420, 171, 443, 247]]\nframe61: persons: [id:1 bbox:[389, 181, 440, 295], id:2 bbox:[433, 224, 462, 307], id:5 bbox:[503, 187, 533, 269], id:7 bbox:[429, 157, 453, 235]]\nframe91: persons: [id:1 bbox:[430, 169, 451, 287], id:2 bbox:[434, 228, 468, 307], id:5 bbox:[502, 187, 532, 271], id:3 bbox:[444, 167, 467, 241]]\nframe121: persons: [id:2 bbox:[435, 234, 468, 308], id:5 bbox:[503, 188, 532, 271], id:3 bbox:[467, 195, 492, 305], id:8 bbox:[425, 168, 448, 264]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is punching ID2, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[297, 455, 404, 637]]\nframe31: persons: [id:1 bbox:[296, 445, 412, 644]]\nframe61: persons: [id:1 bbox:[326, 437, 417, 583], id:2 bbox:[295, 554, 412, 643]]\nframe91: persons: [id:1 bbox:[343, 409, 420, 562], id:2 bbox:[293, 555, 357, 636]]\nframe121: persons: [id:1 bbox:[342, 379, 414, 563], id:2 bbox:[294, 553, 403, 638]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam02_assault01_place09_day_summer_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[241, 217, 304, 463], id:2 bbox:[296, 208, 334, 400]]\nframe31: persons: [id:1 bbox:[257, 209, 304, 418], id:2 bbox:[290, 207, 334, 399]]\nframe61: persons: [id:1 bbox:[270, 203, 306, 416], id:2 bbox:[293, 206, 331, 406]]\nframe91: persons: [id:1 bbox:[259, 205, 299, 418], id:2 bbox:[306, 211, 347, 399]]\nframe121: persons: [id:1 bbox:[264, 207, 303, 421], id:2 bbox:[320, 206, 366, 399]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is threatening ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam01_assault01_place01_day_spring_person1_pulling_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[496, 277, 546, 420], id:2 bbox:[342, 297, 377, 485], id:3 bbox:[385, 278, 427, 475]]\nframe31: persons: [id:1 bbox:[496, 272, 543, 420], id:2 bbox:[337, 295, 367, 490], id:3 bbox:[340, 282, 412, 474]]\nframe61: persons: [id:1 bbox:[496, 274, 542, 420], id:2 bbox:[324, 285, 365, 482], id:3 bbox:[361, 275, 405, 474]]\nframe91: persons: [id:1 bbox:[496, 278, 543, 421], id:2 bbox:[331, 307, 372, 488], id:3 bbox:[355, 286, 401, 462]]\nframe121: persons: [id:1 bbox:[435, 305, 490, 459], id:2 bbox:[284, 395, 326, 532], id:3 bbox:[359, 285, 400, 484]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a gray jacket and blue jeans, is slapping ID2, who is wearing a black shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "13-6_cam02_assault02_place08_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[656, 282, 722, 474], id:2 bbox:[545, 247, 612, 362]]\nframe31: persons: [id:1 bbox:[657, 263, 717, 474], id:2 bbox:[547, 245, 615, 370], id:3 bbox:[610, 195, 663, 350]]\nframe61: persons: [id:1 bbox:[641, 257, 707, 460], id:3 bbox:[598, 196, 648, 371], id:2 bbox:[575, 195, 650, 369]]\nframe91: persons: [id:1 bbox:[641, 263, 707, 460], id:2 bbox:[530, 277, 589, 393], id:3 bbox:[602, 195, 655, 356]]\nframe121: persons: [id:1 bbox:[638, 253, 693, 461], id:2 bbox:[506, 297, 565, 432], id:3 bbox:[593, 190, 647, 358]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a light-colored shirt and beige pants, is kicking ID2, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[296, 273, 331, 454], id:2 bbox:[317, 298, 357, 425]]\nframe31: persons: [id:1 bbox:[297, 271, 330, 451], id:2 bbox:[325, 291, 368, 449]]\nframe61: persons: [id:1 bbox:[304, 280, 350, 364], id:2 bbox:[314, 299, 368, 508]]\nframe91: persons: [id:1 bbox:[315, 279, 355, 461], id:2 bbox:[293, 486, 382, 630]]\nframe121: persons: [id:1 bbox:[328, 296, 380, 471], id:2 bbox:[299, 514, 379, 654]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a checkered shirt and blue jeans, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-1_cam01_assault02_place08_day_spring_person2_punching_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[473, 314, 602, 603], id:2 bbox:[624, 386, 744, 684], id:3 bbox:[334, 442, 421, 632]]\nframe31: persons: [id:1 bbox:[414, 332, 504, 585], id:2 bbox:[633, 454, 755, 718], id:3 bbox:[332, 438, 427, 623]]\nframe61: persons: [id:1 bbox:[427, 365, 544, 672], id:2 bbox:[612, 424, 746, 717], id:3 bbox:[335, 432, 426, 636]]\nframe91: persons: [id:1 bbox:[407, 321, 490, 620], id:2 bbox:[607, 430, 729, 737], id:3 bbox:[326, 442, 425, 640]]\nframe121: persons: [id:1 bbox:[413, 296, 539, 602], id:2 bbox:[589, 503, 720, 738], id:3 bbox:[335, 437, 425, 633]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black jacket and light pants, is striking ID3, who is wearing a dark jacket, with a stick "
+      }
+    ]
+  },
+  {
+    "video": "5-1_cam02_assault01_place08_day_summer_person1_pulling_seg9_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[576, 303, 614, 464], id:2 bbox:[545, 302, 586, 401]]\nframe31: persons: [id:1 bbox:[559, 290, 599, 419], id:2 bbox:[546, 277, 579, 399]]\nframe61: persons: [id:1 bbox:[557, 286, 611, 422], id:2 bbox:[548, 281, 587, 399]]\nframe91: persons: [id:1 bbox:[580, 286, 623, 423], id:2 bbox:[551, 282, 584, 401]]\nframe121: persons: [id:1 bbox:[583, 294, 614, 420], id:2 bbox:[551, 284, 585, 407]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is punching ID2, who is wearing a white shirt and blue jeans."
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_summer_person1_kicking_seg9_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[350, 392, 399, 659], id:2 bbox:[287, 627, 379, 755]]\nframe31: persons: [id:1 bbox:[353, 413, 400, 659], id:2 bbox:[287, 628, 386, 755], id:3 bbox:[679, 207, 695, 277]]\nframe61: persons: [id:1 bbox:[336, 415, 413, 678], id:2 bbox:[286, 624, 381, 755], id:3 bbox:[668, 203, 685, 265]]\nframe91: persons: [id:1 bbox:[312, 442, 386, 649], id:2 bbox:[286, 634, 375, 755]]\nframe121: persons: [id:1 bbox:[297, 417, 391, 674], id:2 bbox:[282, 635, 400, 755], id:3 bbox:[647, 191, 659, 249]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-6_cam01_assault02_place08_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[586, 456, 737, 737], id:2 bbox:[348, 482, 431, 622], id:3 bbox:[422, 408, 477, 540]]\nframe31: persons: [id:1 bbox:[586, 459, 740, 737], id:2 bbox:[348, 389, 439, 623], id:3 bbox:[422, 417, 477, 540]]\nframe61: persons: [id:1 bbox:[586, 453, 720, 738], id:2 bbox:[347, 412, 419, 714], id:3 bbox:[425, 396, 485, 541]]\nframe91: persons: [id:1 bbox:[587, 429, 698, 731], id:2 bbox:[353, 401, 425, 621], id:3 bbox:[392, 355, 459, 530]]\nframe121: persons: [id:1 bbox:[585, 379, 691, 703], id:2 bbox:[340, 437, 434, 623], id:3 bbox:[418, 404, 484, 548]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a light-colored shirt and gray pants, is slapping ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "406-2_cam02_assault01_place03_day_summer_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[167, 330, 239, 541], id:2 bbox:[113, 333, 171, 485], id:3 bbox:[540, 220, 573, 306]]\nframe31: persons: [id:1 bbox:[156, 318, 227, 492], id:2 bbox:[98, 306, 134, 480], id:3 bbox:[667, 269, 703, 379]]\nframe61: persons: [id:1 bbox:[134, 315, 186, 488], id:2 bbox:[93, 303, 132, 484]]\nframe91: persons: [id:1 bbox:[139, 302, 189, 489], id:2 bbox:[94, 297, 134, 472]]\nframe121: persons: [id:1 bbox:[169, 332, 208, 469], id:2 bbox:[95, 302, 136, 477]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black shirt and black pants, is threatening ID2, also wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "7-2_cam01_assault01_place04_day_summer_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[308, 191, 340, 316], id:2 bbox:[266, 149, 290, 267], id:3 bbox:[328, 149, 352, 265], id:4 bbox:[292, 142, 320, 239]]\nframe31: persons: [id:1 bbox:[314, 184, 349, 320], id:2 bbox:[253, 137, 278, 255], id:4 bbox:[305, 139, 344, 250]]\nframe61: persons: [id:1 bbox:[313, 187, 348, 320], id:2 bbox:[241, 142, 269, 257], id:4 bbox:[289, 145, 323, 236], id:3 bbox:[325, 147, 342, 207]]\nframe91: persons: [id:1 bbox:[304, 189, 339, 321], id:2 bbox:[241, 180, 277, 262], id:4 bbox:[279, 153, 314, 261], id:3 bbox:[323, 148, 342, 226]]\nframe121: persons: [id:1 bbox:[292, 180, 322, 314], id:2 bbox:[222, 200, 262, 261], id:4 bbox:[297, 140, 323, 198], id:3 bbox:[321, 147, 341, 266]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a striped shirt and black pants, is kicking ID2, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[277, 383, 384, 690]]\nframe31: persons: [id:1 bbox:[253, 370, 308, 675], id:2 bbox:[187, 221, 217, 317], id:3 bbox:[299, 510, 385, 667]]\nframe61: persons: [id:1 bbox:[264, 351, 344, 591], id:2 bbox:[162, 225, 177, 284], id:3 bbox:[295, 504, 389, 655]]\nframe91: persons: [id:1 bbox:[286, 349, 345, 613], id:3 bbox:[328, 489, 395, 606]]\nframe121: persons: [id:1 bbox:[321, 366, 375, 650], id:5 bbox:[320, 364, 419, 652]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is kicking ID3 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-3_cam02_assault01_place01_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[135, 182, 175, 347]]\nframe31: persons: [id:1 bbox:[162, 191, 199, 345], id:2 bbox:[139, 170, 168, 326]]\nframe61: persons: [id:1 bbox:[193, 206, 237, 373], id:2 bbox:[174, 192, 207, 338]]\nframe91: persons: [id:1 bbox:[244, 341, 335, 449], id:2 bbox:[180, 183, 230, 353]]\nframe121: persons: [id:2 bbox:[193, 185, 230, 353], id:1 bbox:[265, 373, 351, 468]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a white shirt and blue jeans, is punching ID1, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam01_assault01_place09_day_spring_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[343, 456, 444, 749], id:2 bbox:[260, 373, 327, 687]]\nframe31: persons: [id:1 bbox:[332, 435, 417, 735], id:2 bbox:[185, 411, 256, 596]]\nframe61: persons: [id:1 bbox:[336, 420, 415, 735], id:2 bbox:[169, 477, 264, 606]]\nframe91: persons: [id:1 bbox:[342, 393, 431, 730], id:2 bbox:[167, 452, 277, 626]]\nframe121: persons: [id:1 bbox:[343, 358, 407, 631], id:2 bbox:[169, 506, 278, 614], id:3 bbox:[179, 248, 194, 302]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is kicking at ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_spring_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[213, 73, 294, 314], id:2 bbox:[125, 90, 184, 274]]\nframe31: persons: [id:1 bbox:[240, 44, 315, 309], id:2 bbox:[194, 67, 248, 292], id:3 bbox:[590, 0, 607, 41]]\nframe61: persons: [id:1 bbox:[242, 189, 348, 362], id:2 bbox:[201, 80, 258, 297], id:3 bbox:[600, 0, 620, 54]]\nframe91: persons: [id:1 bbox:[243, 250, 332, 439], id:2 bbox:[224, 85, 270, 334], id:3 bbox:[613, 0, 630, 61]]\nframe121: persons: [id:1 bbox:[251, 304, 313, 480], id:2 bbox:[213, 114, 275, 341], id:3 bbox:[623, 0, 642, 80]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[233, 293, 309, 590], id:2 bbox:[385, 233, 434, 533], id:3 bbox:[300, 344, 368, 471]]\nframe31: persons: [id:1 bbox:[215, 280, 273, 592], id:2 bbox:[380, 244, 442, 535], id:3 bbox:[285, 345, 364, 476]]\nframe61: persons: [id:1 bbox:[214, 252, 260, 565], id:2 bbox:[387, 248, 438, 542], id:3 bbox:[286, 344, 370, 476]]\nframe91: persons: [id:1 bbox:[210, 220, 270, 504], id:2 bbox:[377, 241, 453, 539], id:3 bbox:[283, 343, 371, 474]]\nframe121: persons: [id:1 bbox:[195, 276, 269, 533], id:2 bbox:[381, 249, 434, 529], id:3 bbox:[277, 333, 356, 418]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and gray pants, is slapping ID3, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[292, 267, 324, 436]]\nframe31: persons: [id:1 bbox:[251, 255, 282, 430], id:2 bbox:[277, 253, 311, 408]]\nframe61: persons: [id:1 bbox:[244, 255, 275, 431], id:2 bbox:[278, 262, 307, 424]]\nframe91: persons: [id:1 bbox:[231, 258, 270, 413], id:2 bbox:[281, 257, 308, 422]]\nframe121: persons: [id:1 bbox:[231, 251, 263, 414], id:2 bbox:[285, 256, 310, 428]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam01_assault01_place04_day_spring_person2_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[282, 150, 311, 266], id:-1 bbox:[260, 115, 282, 217], id:-1 bbox:[304, 156, 325, 279], id:-1 bbox:[254, 176, 277, 303]]\nframe31: persons: [id:1 bbox:[281, 154, 311, 266], id:2 bbox:[256, 115, 283, 212], id:3 bbox:[304, 157, 328, 275], id:4 bbox:[253, 174, 277, 301]]\nframe61: persons: [id:2 bbox:[257, 115, 284, 220], id:3 bbox:[305, 153, 329, 275], id:4 bbox:[263, 173, 303, 289]]\nframe91: persons: [id:2 bbox:[257, 115, 284, 222], id:3 bbox:[309, 167, 335, 274], id:4 bbox:[279, 159, 318, 284]]\nframe121: persons: [id:2 bbox:[263, 117, 284, 224], id:3 bbox:[309, 156, 337, 271], id:1 bbox:[276, 165, 322, 288]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID4, who is wearing a black jacket and black pants, is slapping ID3, who is wearing a black sleeveless shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-3_cam01_assault01_place01_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[379, 301, 417, 490], id:2 bbox:[333, 296, 370, 514]]\nframe31: persons: [id:1 bbox:[397, 285, 432, 458], id:2 bbox:[346, 288, 406, 482]]\nframe61: persons: [id:1 bbox:[409, 277, 444, 456], id:2 bbox:[378, 278, 422, 482]]\nframe91: persons: [id:2 bbox:[383, 269, 431, 452], id:1 bbox:[437, 269, 483, 431]]\nframe121: persons: [id:2 bbox:[433, 259, 513, 427]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a white jacket and blue jeans, is pushing and punching ID3, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "180-6_cam02_assault01_place09_day_spring_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[150, 236, 196, 437], id:2 bbox:[255, 258, 306, 475]]\nframe31: persons: [id:1 bbox:[146, 242, 193, 440], id:2 bbox:[223, 271, 305, 495]]\nframe61: persons: [id:1 bbox:[185, 278, 286, 477], id:2 bbox:[280, 327, 330, 559]]\nframe91: persons: [id:1 bbox:[153, 234, 209, 452], id:2 bbox:[262, 332, 352, 577], id:3 bbox:[40, 183, 79, 298]]\nframe121: persons: [id:1 bbox:[120, 216, 165, 404], id:2 bbox:[238, 277, 299, 496], id:3 bbox:[83, 158, 109, 269]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, wearing a black shirt and gray pants is threatening ID2, who is wearing an orange shirt, a purple vest and blue jeans, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam02_assault02_place08_day_summer_person2_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[578, 240, 620, 340], id:2 bbox:[595, 272, 633, 388]]\nframe31: persons: [id:1 bbox:[577, 217, 613, 356], id:2 bbox:[599, 227, 650, 393], id:3 bbox:[626, 217, 663, 295]]\nframe61: persons: [id:1 bbox:[577, 212, 614, 357], id:2 bbox:[591, 215, 649, 381]]\nframe91: persons: [id:1 bbox:[577, 233, 621, 359], id:2 bbox:[597, 198, 651, 378]]\nframe121: persons: [id:1 bbox:[579, 242, 618, 361], id:2 bbox:[599, 202, 649, 388]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and gray pants, is threatening ID1, who is wearing a light-colored shirt and balck pants"
+      }
+    ]
+  },
+  {
+    "video": "21-2_cam02_assault01_place09_day_spring_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[218, 216, 257, 399], id:2 bbox:[270, 283, 311, 451]]\nframe31: persons: [id:1 bbox:[214, 215, 248, 401], id:2 bbox:[270, 282, 314, 452]]\nframe61: persons: [id:1 bbox:[216, 231, 262, 404], id:2 bbox:[271, 283, 329, 453]]\nframe91: persons: [id:1 bbox:[169, 308, 247, 486], id:2 bbox:[271, 290, 324, 441]]\nframe121: persons: [id:2 bbox:[271, 288, 320, 436]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a checkered shirt and blue jeans, is slapping ID2 who is wearing a red shirt and blue pants"
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_spring_person2_falldown_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[309, 487, 411, 645], id:2 bbox:[320, 336, 381, 498]]\nframe31: persons: [id:1 bbox:[307, 520, 387, 681], id:2 bbox:[332, 345, 386, 547]]\nframe61: persons: [id:1 bbox:[297, 552, 364, 752], id:2 bbox:[307, 359, 405, 585]]\nframe91: persons: [id:2 bbox:[333, 373, 398, 586], id:1 bbox:[228, 588, 345, 755]]\nframe121: persons: [id:2 bbox:[309, 398, 371, 623], id:1 bbox:[254, 601, 353, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam01_assault01_place09_day_spring_person1_kicking_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[272, 487, 361, 663], id:2 bbox:[252, 272, 288, 453]]\nframe31: persons: [id:1 bbox:[266, 509, 367, 678], id:2 bbox:[265, 292, 321, 506]]\nframe61: persons: [id:1 bbox:[266, 495, 368, 678], id:2 bbox:[282, 333, 353, 520]]\nframe91: persons: [id:1 bbox:[317, 531, 419, 640], id:2 bbox:[310, 340, 365, 546]]\nframe121: persons: [id:1 bbox:[294, 553, 419, 644], id:2 bbox:[340, 391, 406, 546]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing checkered shirt and blue pants is kicking ID1 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam01_assault01_place09_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[324, 427, 424, 751], id:2 bbox:[422, 524, 524, 755]]\nframe31: persons: [id:1 bbox:[335, 449, 408, 755], id:2 bbox:[478, 566, 565, 755]]\nframe61: persons: [id:1 bbox:[303, 495, 400, 702], id:2 bbox:[341, 510, 510, 755]]\nframe91: persons: [id:1 bbox:[264, 430, 342, 650], id:2 bbox:[386, 486, 472, 755]]\nframe121: persons: [id:1 bbox:[246, 399, 325, 649], id:2 bbox:[407, 448, 484, 755], id:3 bbox:[721, 666, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam01_assault01_place03_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[437, 335, 466, 468], id:2 bbox:[464, 321, 491, 455]]\nframe31: persons: [id:1 bbox:[432, 336, 465, 478], id:2 bbox:[456, 324, 485, 464]]\nframe61: persons: [id:1 bbox:[421, 343, 453, 491], id:2 bbox:[452, 328, 485, 465]]\nframe91: persons: [id:1 bbox:[421, 341, 450, 498], id:2 bbox:[450, 324, 484, 463]]\nframe121: persons: [id:1 bbox:[444, 327, 468, 477], id:2 bbox:[459, 325, 484, 463]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a blue shirt and black pants, is pushing ID2, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "4-2_cam01_assault01_place01_day_summer_person1_punching_seg5_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[210, 384, 286, 560], id:2 bbox:[340, 299, 406, 475], id:3 bbox:[396, 318, 446, 439]]\nframe31: persons: [id:1 bbox:[215, 359, 292, 553], id:2 bbox:[347, 310, 401, 475], id:3 bbox:[394, 323, 447, 466]]\nframe61: persons: [id:1 bbox:[305, 338, 378, 516], id:2 bbox:[362, 283, 422, 472], id:3 bbox:[405, 332, 455, 467]]\nframe91: persons: [id:1 bbox:[312, 339, 363, 520], id:2 bbox:[370, 285, 423, 470], id:3 bbox:[413, 325, 460, 465]]\nframe121: persons: [id:1 bbox:[247, 332, 298, 514], id:2 bbox:[375, 276, 427, 471], id:3 bbox:[414, 324, 459, 451]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and blue jeans, is punching ID3, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "12-3_cam02_assault01_place09_day_spring_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[310, 215, 350, 442]]\nframe31: persons: [id:1 bbox:[313, 213, 349, 443], id:2 bbox:[244, 341, 315, 454]]\nframe61: persons: [id:1 bbox:[288, 219, 339, 449], id:2 bbox:[242, 331, 306, 455]]\nframe91: persons: [id:1 bbox:[292, 220, 325, 448], id:2 bbox:[232, 333, 301, 454]]\nframe121: persons: [id:1 bbox:[293, 222, 327, 448], id:2 bbox:[235, 333, 302, 454]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "180-3_cam02_assault01_place09_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[62, 346, 121, 508], id:2 bbox:[189, 306, 260, 558], id:3 bbox:[608, 404, 666, 586]]\nframe31: persons: [id:1 bbox:[73, 333, 123, 513], id:2 bbox:[119, 389, 212, 658], id:3 bbox:[605, 403, 665, 580]]\nframe61: persons: [id:1 bbox:[62, 323, 134, 486], id:2 bbox:[0, 461, 94, 663], id:3 bbox:[593, 399, 674, 584], id:4 bbox:[496, 363, 543, 541]]\nframe91: persons: [id:1 bbox:[52, 312, 98, 472], id:3 bbox:[588, 401, 674, 565], id:4 bbox:[495, 362, 541, 499]]\nframe121: persons: [id:1 bbox:[112, 234, 134, 342], id:3 bbox:[588, 401, 674, 584], id:4 bbox:[495, 364, 541, 539], id:5 bbox:[0, 358, 31, 513]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, wearing an orange cap, black sleeveless shirt, and blue jeans, is threatening ID2, who is wearing a white shirt, a dark vest, and gray pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam02_assault01_place09_day_summer_person1_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[504, 233, 529, 358], id:2 bbox:[442, 344, 488, 503]]\nframe31: persons: [id:1 bbox:[508, 233, 538, 355], id:2 bbox:[440, 320, 509, 499], id:3 bbox:[0, 663, 35, 756], id:5 bbox:[392, 383, 458, 510]]\nframe61: persons: [id:1 bbox:[508, 237, 531, 349], id:2 bbox:[413, 312, 497, 518], id:3 bbox:[0, 662, 35, 756], id:5 bbox:[387, 368, 447, 509], id:4 bbox:[488, 234, 508, 310]]\nframe91: persons: [id:1 bbox:[501, 242, 523, 334], id:2 bbox:[449, 325, 501, 518], id:3 bbox:[0, 662, 35, 755], id:5 bbox:[393, 429, 461, 564]]\nframe121: persons: [id:1 bbox:[500, 232, 521, 326], id:2 bbox:[442, 319, 503, 515], id:3 bbox:[0, 662, 37, 755], id:5 bbox:[394, 426, 469, 550]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is punching ID5 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-1_cam02_assault01_place01_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[93, 175, 139, 315], id:2 bbox:[148, 173, 189, 340]]\nframe31: persons: [id:1 bbox:[101, 169, 139, 321], id:2 bbox:[143, 169, 188, 338]]\nframe61: persons: [id:1 bbox:[102, 173, 135, 326], id:2 bbox:[102, 159, 175, 330]]\nframe91: persons: [id:1 bbox:[94, 174, 132, 312], id:2 bbox:[128, 171, 169, 332]]\nframe121: persons: [id:1 bbox:[103, 171, 136, 319], id:2 bbox:[133, 179, 180, 345]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and blue jeans, is pushing ID1, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "8-4_cam02_assault03_place05_day_spring_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[240, 172, 314, 362], id:2 bbox:[207, 83, 282, 285]]\nframe31: persons: [id:1 bbox:[250, 256, 335, 482], id:2 bbox:[213, 96, 278, 338], id:3 bbox:[614, 0, 635, 69]]\nframe61: persons: [id:1 bbox:[250, 298, 315, 482], id:2 bbox:[213, 116, 313, 322], id:3 bbox:[623, 2, 646, 90]]\nframe91: persons: [id:1 bbox:[257, 332, 332, 528], id:2 bbox:[215, 123, 281, 371], id:3 bbox:[635, 15, 660, 109]]\nframe121: persons: [id:1 bbox:[258, 334, 341, 528], id:2 bbox:[245, 124, 322, 358], id:3 bbox:[653, 29, 681, 134]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam01_assault02_place08_day_summer_person1_kicking_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[465, 322, 551, 588], id:2 bbox:[306, 376, 382, 725]]\nframe31: persons: [id:1 bbox:[422, 342, 506, 573], id:2 bbox:[268, 294, 338, 572], id:3 bbox:[378, 423, 440, 563], id:4 bbox:[689, 491, 755, 725]]\nframe61: persons: [id:1 bbox:[373, 346, 525, 568], id:2 bbox:[287, 222, 342, 492], id:3 bbox:[371, 425, 439, 564], id:4 bbox:[675, 536, 755, 725]]\nframe91: persons: [id:1 bbox:[468, 318, 529, 500], id:2 bbox:[315, 189, 360, 438], id:4 bbox:[609, 540, 742, 755], id:3 bbox:[370, 418, 440, 564]]\nframe121: persons: [id:1 bbox:[467, 280, 539, 531], id:2 bbox:[326, 195, 376, 450], id:4 bbox:[353, 546, 476, 755], id:3 bbox:[349, 418, 432, 527]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a light-colored shirt and beige pants, is kicking ID2, who is wearing a light-colored shirt."
+      }
+    ]
+  },
+  {
+    "video": "406-6_cam02_assault01_place03_day_summer_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[108, 401, 184, 686], id:2 bbox:[179, 471, 247, 679], id:3 bbox:[603, 265, 620, 319]]\nframe31: persons: [id:1 bbox:[134, 379, 217, 596], id:2 bbox:[197, 490, 297, 605], id:3 bbox:[527, 261, 545, 311]]\nframe61: persons: [id:1 bbox:[188, 345, 236, 549], id:3 bbox:[442, 259, 459, 305]]\nframe91: persons: [id:1 bbox:[178, 334, 217, 519], id:2 bbox:[263, 471, 326, 584]]\nframe121: persons: [id:1 bbox:[172, 336, 201, 517], id:2 bbox:[267, 472, 346, 560]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a gray shirt and black pants, is slapping ID2, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "5-5_cam02_assault01_place08_day_summer_person2_punching_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[590, 363, 626, 469], id:2 bbox:[554, 398, 602, 463], id:3 bbox:[446, 346, 478, 499]]\nframe31: persons: [id:1 bbox:[585, 366, 623, 473], id:2 bbox:[549, 383, 595, 464], id:3 bbox:[445, 352, 476, 518]]\nframe61: persons: [id:1 bbox:[572, 378, 611, 477], id:2 bbox:[551, 381, 585, 459], id:3 bbox:[450, 351, 480, 517]]\nframe91: persons: [id:1 bbox:[566, 400, 603, 476], id:2 bbox:[549, 404, 577, 477], id:3 bbox:[450, 351, 482, 510]]\nframe121: persons: [id:1 bbox:[566, 399, 600, 477], id:2 bbox:[544, 403, 572, 478], id:3 bbox:[445, 356, 473, 513]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and black pants, is slapping ID2, who is wearing a white shirt and gray pants."
+      }
+    ]
+  },
+  {
+    "video": "8-5_cam02_assault03_place05_day_summer_person1_kicking_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[238, 63, 292, 278], id:2 bbox:[283, 72, 354, 326]]\nframe31: persons: [id:1 bbox:[246, 67, 311, 281], id:2 bbox:[288, 85, 357, 328]]\nframe61: persons: [id:1 bbox:[255, 72, 303, 282], id:2 bbox:[295, 122, 364, 372]]\nframe91: persons: [id:1 bbox:[257, 83, 321, 291], id:2 bbox:[279, 227, 368, 432]]\nframe121: persons: [id:1 bbox:[262, 99, 326, 268], id:2 bbox:[250, 253, 358, 492]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "7-2_cam02_assault01_place04_day_summer_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[502, 153, 523, 236], id:2 bbox:[446, 168, 476, 284], id:3 bbox:[473, 174, 501, 278], id:4 bbox:[439, 149, 456, 234], id:5 bbox:[661, 255, 697, 370]]\nframe31: persons: [id:1 bbox:[502, 153, 525, 236], id:2 bbox:[434, 177, 466, 288], id:3 bbox:[460, 177, 492, 285], id:4 bbox:[440, 148, 457, 197]]\nframe61: persons: [id:1 bbox:[503, 155, 524, 237], id:2 bbox:[421, 183, 472, 307], id:3 bbox:[443, 146, 470, 255], id:4 bbox:[452, 146, 470, 204]]\nframe91: persons: [id:1 bbox:[503, 156, 524, 239], id:2 bbox:[388, 172, 427, 298], id:4 bbox:[456, 144, 475, 241], id:3 bbox:[427, 210, 462, 288]]\nframe121: persons: [id:1 bbox:[504, 183, 524, 238], id:2 bbox:[372, 171, 398, 305], id:4 bbox:[463, 153, 480, 231], id:3 bbox:[447, 182, 477, 303]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and black pants, is kicking ID2, also wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "4-5_cam02_assault01_place01_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[202, 200, 250, 373], id:2 bbox:[245, 222, 289, 399]]\nframe31: persons: [id:1 bbox:[197, 209, 242, 362], id:2 bbox:[199, 229, 247, 406]]\nframe61: persons: [id:2 bbox:[253, 253, 299, 416], id:1 bbox:[174, 211, 261, 395]]\nframe91: persons: [id:2 bbox:[225, 238, 266, 420], id:1 bbox:[213, 239, 235, 368]]\nframe121: persons: [id:2 bbox:[267, 281, 307, 438], id:1 bbox:[206, 210, 273, 390]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is punching ID2, who is wearing a beige shirt and blue jeans"
+      }
+    ]
+  },
+  {
+    "video": "7-5_cam01_assault01_place04_day_spring_person4_kicking_seg8_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[472, 311, 519, 416], id:-1 bbox:[272, 189, 298, 240], id:-1 bbox:[250, 215, 296, 259], id:-1 bbox:[488, 311, 519, 414], id:-1 bbox:[268, 187, 282, 234]]\nframe31: persons: [id:1 bbox:[473, 318, 519, 417], id:4 bbox:[256, 121, 283, 214]]\nframe61: persons: [id:1 bbox:[473, 318, 519, 422], id:2 bbox:[208, 148, 239, 249], id:4 bbox:[236, 112, 255, 201]]\nframe91: persons: [id:1 bbox:[488, 317, 519, 413], id:4 bbox:[237, 106, 253, 193], id:2 bbox:[198, 137, 219, 241], id:3 bbox:[293, 132, 317, 226]]\nframe121: persons: [id:1 bbox:[472, 318, 519, 417], id:4 bbox:[249, 101, 268, 179], id:2 bbox:[201, 128, 226, 233], id:3 bbox:[283, 119, 299, 221]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a green jacket and beige pants, is kicking ID4, who is wearing a black sleeveless shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-6_cam02_assault02_place08_day_summer_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[604, 278, 654, 367], id:2 bbox:[638, 302, 681, 417]]\nframe31: persons: [id:1 bbox:[604, 273, 653, 367], id:2 bbox:[626, 294, 689, 403], id:3 bbox:[672, 207, 726, 340]]\nframe61: persons: [id:1 bbox:[606, 277, 654, 367], id:2 bbox:[625, 302, 676, 416], id:3 bbox:[671, 208, 725, 346]]\nframe91: persons: [id:1 bbox:[605, 279, 655, 367], id:2 bbox:[629, 305, 677, 409], id:3 bbox:[671, 208, 725, 346]]\nframe121: persons: [id:1 bbox:[606, 284, 655, 367], id:2 bbox:[632, 307, 677, 413], id:3 bbox:[676, 205, 724, 348]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a light-colored shirt and beige pants, is threatening ID1, who is wearing a light-colored shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-6_cam02_assault01_place09_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[164, 253, 245, 575], id:2 bbox:[85, 277, 188, 658]]\nframe31: persons: [id:1 bbox:[128, 272, 231, 599], id:2 bbox:[75, 278, 162, 676]]\nframe61: persons: [id:2 bbox:[84, 275, 195, 698], id:1 bbox:[159, 258, 218, 603]]\nframe91: persons: [id:2 bbox:[56, 319, 164, 756], id:1 bbox:[224, 251, 281, 512]]\nframe121: persons: [id:2 bbox:[57, 295, 176, 742], id:1 bbox:[242, 225, 297, 488]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is pushing ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_spring_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[337, 335, 393, 575], id:2 bbox:[319, 324, 355, 512]]\nframe31: persons: [id:1 bbox:[319, 339, 392, 575], id:2 bbox:[317, 337, 353, 512]]\nframe61: persons: [id:1 bbox:[334, 344, 392, 569], id:2 bbox:[291, 345, 351, 530]]\nframe91: persons: [id:1 bbox:[333, 460, 405, 618], id:2 bbox:[297, 333, 347, 537]]\nframe121: persons: [id:1 bbox:[318, 480, 395, 645], id:2 bbox:[305, 337, 380, 506]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-1_cam02_assault01_place09_day_summer_person1_punching_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[221, 206, 265, 433], id:2 bbox:[336, 236, 366, 310]]\nframe31: persons: [id:1 bbox:[233, 205, 273, 432], id:2 bbox:[336, 235, 366, 320], id:3 bbox:[302, 285, 355, 422], id:4 bbox:[357, 244, 395, 327]]\nframe61: persons: [id:1 bbox:[226, 206, 282, 426], id:2 bbox:[335, 235, 366, 321], id:3 bbox:[302, 287, 354, 422], id:4 bbox:[358, 244, 395, 328]]\nframe91: persons: [id:1 bbox:[204, 274, 279, 458], id:2 bbox:[334, 236, 366, 323], id:4 bbox:[356, 244, 395, 327], id:3 bbox:[299, 272, 353, 420]]\nframe121: persons: [id:2 bbox:[335, 236, 366, 324], id:4 bbox:[357, 244, 395, 329], id:3 bbox:[298, 269, 347, 420]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is slapping ID3 who is wearing a white shirt and balck pants"
+      }
+    ]
+  },
+  {
+    "video": "13-6_cam02_assault02_place08_day_spring_person2_punching_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[633, 279, 703, 497], id:2 bbox:[534, 337, 606, 443]]\nframe31: persons: [id:1 bbox:[594, 267, 673, 468], id:2 bbox:[534, 337, 604, 442], id:3 bbox:[582, 222, 621, 354]]\nframe61: persons: [id:1 bbox:[606, 242, 664, 456], id:2 bbox:[534, 353, 596, 442], id:3 bbox:[583, 209, 621, 356]]\nframe91: persons: [id:1 bbox:[592, 251, 676, 461], id:2 bbox:[535, 355, 597, 442], id:3 bbox:[583, 215, 619, 345]]\nframe121: persons: [id:1 bbox:[588, 255, 656, 469], id:3 bbox:[581, 215, 618, 349]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a balck jacket and gray pants, is striking ID2, who is wearing a black jacket and black pants, with a stick"
+      }
+    ]
+  },
+  {
+    "video": "13-2_cam02_assault02_place08_day_summer_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[611, 352, 706, 592], id:2 bbox:[597, 193, 658, 359]]\nframe31: persons: [id:1 bbox:[623, 343, 709, 589], id:2 bbox:[597, 194, 642, 360], id:3 bbox:[634, 201, 681, 377]]\nframe61: persons: [id:1 bbox:[627, 330, 704, 549], id:2 bbox:[597, 186, 644, 360], id:3 bbox:[636, 208, 683, 379]]\nframe91: persons: [id:1 bbox:[626, 314, 713, 534], id:2 bbox:[597, 187, 647, 360], id:3 bbox:[634, 200, 678, 376]]\nframe121: persons: [id:1 bbox:[635, 294, 710, 517], id:2 bbox:[590, 191, 642, 355], id:3 bbox:[620, 189, 667, 347]]"
+      },
+      {
+        "from": "gpt",
+        "value": "assault"
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam01_assault01_place09_day_spring_person1_threaten_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[264, 429, 365, 755], id:2 bbox:[186, 306, 243, 594]]\nframe31: persons: [id:1 bbox:[260, 379, 338, 705], id:2 bbox:[188, 309, 244, 594]]\nframe61: persons: [id:1 bbox:[218, 349, 320, 663], id:2 bbox:[188, 303, 234, 590], id:3 bbox:[722, 677, 755, 755]]\nframe91: persons: [id:1 bbox:[214, 320, 278, 619], id:2 bbox:[182, 305, 237, 563], id:3 bbox:[722, 676, 755, 755]]\nframe121: persons: [id:1 bbox:[208, 319, 275, 610], id:2 bbox:[168, 306, 213, 566], id:3 bbox:[721, 676, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-2_cam01_assault01_place09_day_summer_person1_pushing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[76, 308, 128, 506], id:2 bbox:[171, 374, 270, 537], id:3 bbox:[181, 284, 221, 389]]\nframe31: persons: [id:1 bbox:[79, 312, 131, 508], id:2 bbox:[173, 373, 269, 537], id:3 bbox:[184, 284, 221, 397]]\nframe61: persons: [id:1 bbox:[95, 323, 162, 558], id:2 bbox:[173, 375, 269, 538], id:3 bbox:[179, 284, 221, 395], id:4 bbox:[143, 292, 181, 418]]\nframe91: persons: [id:3 bbox:[179, 284, 221, 436], id:5 bbox:[138, 292, 182, 414], id:1 bbox:[163, 481, 262, 660], id:6 bbox:[195, 370, 249, 489]]\nframe121: persons: [id:3 bbox:[179, 285, 222, 441], id:5 bbox:[138, 292, 182, 409], id:2 bbox:[209, 322, 266, 563]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is slapping ID2 who is wearing a white shirt and balck pants"
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam02_assault01_place09_day_summer_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[251, 236, 302, 466], id:2 bbox:[206, 235, 260, 546]]\nframe31: persons: [id:1 bbox:[264, 239, 308, 461], id:2 bbox:[206, 239, 286, 503]]\nframe61: persons: [id:2 bbox:[207, 231, 282, 548], id:4 bbox:[263, 189, 278, 270], id:1 bbox:[273, 308, 326, 438]]\nframe91: persons: [id:2 bbox:[206, 234, 269, 546], id:1 bbox:[262, 342, 303, 455], id:5 bbox:[277, 189, 297, 283]]\nframe121: persons: [id:2 bbox:[208, 232, 274, 538], id:1 bbox:[261, 348, 313, 435]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID1 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam01_assault01_place09_day_spring_person1_threaten_seg7_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:-1 bbox:[266, 432, 322, 561], id:-1 bbox:[180, 510, 294, 640], id:-1 bbox:[721, 680, 755, 755]]\nframe31: persons: [id:1 bbox:[266, 433, 322, 560], id:2 bbox:[181, 511, 290, 641]]\nframe61: persons: [id:1 bbox:[267, 433, 322, 563], id:2 bbox:[179, 510, 290, 641]]\nframe91: persons: [id:1 bbox:[266, 433, 320, 563], id:2 bbox:[181, 511, 297, 639]]\nframe121: persons: [id:1 bbox:[262, 432, 322, 556], id:2 bbox:[181, 512, 293, 638]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-1_cam02_assault01_place09_day_summer_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[358, 245, 416, 535], id:2 bbox:[0, 651, 30, 755]]\nframe31: persons: [id:1 bbox:[346, 252, 408, 537], id:2 bbox:[0, 666, 22, 755], id:4 bbox:[390, 355, 447, 494], id:5 bbox:[189, 255, 223, 418]]\nframe61: persons: [id:1 bbox:[358, 250, 417, 536], id:2 bbox:[0, 670, 35, 755], id:4 bbox:[399, 376, 451, 486]]\nframe91: persons: [id:1 bbox:[364, 254, 423, 549], id:2 bbox:[0, 668, 22, 755], id:6 bbox:[635, 272, 667, 392], id:4 bbox:[409, 403, 476, 524]]\nframe121: persons: [id:1 bbox:[355, 252, 414, 567], id:2 bbox:[0, 671, 38, 755], id:6 bbox:[614, 263, 645, 351], id:4 bbox:[402, 422, 477, 506]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is punching ID4 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-2_cam01_assault01_place09_day_summer_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[221, 260, 268, 425]]\nframe31: persons: [id:1 bbox:[210, 260, 253, 421], id:2 bbox:[247, 382, 290, 447]]\nframe61: persons: [id:1 bbox:[207, 252, 238, 411], id:2 bbox:[251, 380, 289, 446]]\nframe91: persons: [id:1 bbox:[201, 253, 238, 411], id:2 bbox:[251, 373, 288, 448]]\nframe121: persons: [id:1 bbox:[202, 253, 237, 412], id:2 bbox:[251, 373, 289, 447]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_spring_person2_punching_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[180, 197, 233, 439], id:2 bbox:[284, 270, 359, 581]]\nframe31: persons: [id:1 bbox:[176, 196, 233, 438], id:2 bbox:[254, 260, 327, 562]]\nframe61: persons: [id:1 bbox:[177, 191, 234, 436], id:2 bbox:[217, 343, 322, 603], id:3 bbox:[292, 402, 412, 540]]\nframe91: persons: [id:1 bbox:[179, 188, 234, 438], id:2 bbox:[233, 265, 331, 567], id:3 bbox:[290, 381, 404, 506]]\nframe121: persons: [id:1 bbox:[177, 187, 232, 438], id:2 bbox:[240, 284, 406, 567], id:3 bbox:[299, 402, 403, 535]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a gray shirt, is slapping ID3, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "21-5_cam01_assault01_place09_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[88, 230, 129, 472], id:2 bbox:[227, 345, 295, 512]]\nframe31: persons: [id:1 bbox:[90, 243, 142, 474], id:2 bbox:[227, 341, 296, 512]]\nframe61: persons: [id:1 bbox:[128, 298, 227, 497], id:2 bbox:[228, 342, 296, 513]]\nframe91: persons: [id:3 bbox:[229, 325, 287, 537]]\nframe121: persons: [id:3 bbox:[227, 318, 287, 531]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and blue jeans, is slapping ID2, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "13-5_cam01_assault02_place08_day_spring_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[348, 241, 409, 510], id:2 bbox:[455, 297, 528, 486], id:3 bbox:[387, 298, 463, 461]]\nframe31: persons: [id:1 bbox:[351, 238, 407, 509], id:2 bbox:[460, 293, 528, 490], id:3 bbox:[391, 216, 440, 451]]\nframe61: persons: [id:1 bbox:[347, 226, 420, 509], id:2 bbox:[458, 303, 530, 481], id:3 bbox:[383, 222, 446, 453]]\nframe91: persons: [id:1 bbox:[334, 220, 391, 509], id:2 bbox:[458, 301, 528, 481], id:3 bbox:[384, 247, 466, 441]]\nframe121: persons: [id:1 bbox:[345, 234, 402, 511], id:2 bbox:[460, 297, 527, 483], id:3 bbox:[390, 291, 466, 463]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a balck jacket and gray pants, is pushing ID3, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "13-4_cam01_assault02_place08_day_spring_person2_threaten_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[297, 331, 390, 545], id:2 bbox:[249, 394, 318, 596], id:3 bbox:[481, 280, 572, 551]]\nframe31: persons: [id:1 bbox:[361, 266, 412, 545], id:2 bbox:[249, 395, 317, 597], id:3 bbox:[481, 280, 572, 551]]\nframe61: persons: [id:1 bbox:[346, 250, 419, 545], id:2 bbox:[249, 394, 316, 596], id:3 bbox:[497, 278, 570, 553]]\nframe91: persons: [id:1 bbox:[320, 314, 396, 548], id:2 bbox:[249, 366, 323, 596], id:3 bbox:[485, 276, 569, 479]]\nframe121: persons: [id:1 bbox:[283, 311, 371, 562], id:3 bbox:[486, 275, 570, 551], id:2 bbox:[238, 403, 318, 596]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a black jacket and gray pants, is threatening and kicking ID2, who is wearing a black jacket and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-5_cam01_assault01_place09_day_spring_person1_kicking_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[257, 334, 314, 578]]\nframe31: persons: [id:1 bbox:[250, 308, 309, 557]]\nframe61: persons: [id:1 bbox:[253, 316, 323, 580], id:3 bbox:[720, 678, 755, 755], id:2 bbox:[158, 505, 282, 615]]\nframe91: persons: [id:1 bbox:[246, 330, 307, 580], id:3 bbox:[722, 676, 755, 755], id:2 bbox:[167, 506, 274, 673]]\nframe121: persons: [id:1 bbox:[236, 350, 297, 622], id:3 bbox:[722, 677, 755, 755], id:2 bbox:[177, 516, 252, 705]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is kicking ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-4_cam01_assault01_place09_day_summer_person1_pushing_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[196, 327, 261, 519], id:2 bbox:[84, 320, 128, 448]]\nframe31: persons: [id:1 bbox:[196, 328, 261, 519], id:2 bbox:[85, 326, 130, 449]]\nframe61: persons: [id:1 bbox:[195, 328, 262, 519], id:2 bbox:[123, 318, 202, 502]]\nframe91: persons: [id:1 bbox:[204, 301, 271, 513]]\nframe121: persons: [id:1 bbox:[216, 276, 277, 513]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a white shirt and blue jeans, is slapping ID1 who is wearing a white shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "21-3_cam02_assault01_place09_day_summer_person1_pushing_seg3_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[213, 266, 246, 389], id:2 bbox:[248, 273, 304, 437]]\nframe31: persons: [id:1 bbox:[214, 267, 250, 390], id:2 bbox:[245, 273, 301, 432]]\nframe61: persons: [id:1 bbox:[213, 266, 256, 397], id:2 bbox:[246, 273, 302, 433]]\nframe91: persons: [id:1 bbox:[112, 315, 199, 512], id:2 bbox:[264, 268, 317, 434]]\nframe121: persons: [id:2 bbox:[64, 329, 178, 624]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing a white shirt and blue jeans, is pushing ID2 who is wearing a white shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "12-3_cam01_assault01_place09_day_summer_person2_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[216, 485, 306, 620], id:2 bbox:[160, 318, 220, 599]]\nframe31: persons: [id:1 bbox:[212, 478, 307, 621], id:2 bbox:[184, 310, 238, 554]]\nframe61: persons: [id:1 bbox:[207, 505, 318, 642], id:2 bbox:[185, 295, 244, 533]]\nframe91: persons: [id:1 bbox:[208, 482, 344, 682], id:2 bbox:[172, 289, 235, 535]]\nframe121: persons: [id:1 bbox:[209, 550, 341, 667], id:2 bbox:[192, 282, 247, 531], id:3 bbox:[719, 673, 755, 755]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing white shirt and blue pants is kicking ID2 who is wearing white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "5-6_cam01_assault01_place08_day_summer_person3_falldown_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[377, 428, 431, 603], id:2 bbox:[410, 354, 453, 575], id:3 bbox:[381, 340, 414, 443]]\nframe31: persons: [id:1 bbox:[399, 427, 452, 612], id:3 bbox:[377, 340, 417, 537], id:2 bbox:[414, 362, 465, 476]]\nframe61: persons: [id:1 bbox:[376, 490, 441, 610], id:3 bbox:[377, 341, 412, 534], id:2 bbox:[415, 354, 454, 524]]\nframe91: persons: [id:1 bbox:[378, 493, 437, 619], id:3 bbox:[373, 343, 406, 533], id:2 bbox:[402, 351, 441, 554]]\nframe121: persons: [id:1 bbox:[376, 499, 438, 618], id:3 bbox:[376, 344, 415, 538], id:2 bbox:[392, 345, 432, 521]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and gray pants, is punching ID1, who is wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-2_cam02_assault03_place05_day_summer_person1_threaten_seg4_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[378, 389, 439, 629], id:2 bbox:[306, 600, 424, 733]]\nframe31: persons: [id:1 bbox:[377, 386, 438, 629], id:2 bbox:[304, 596, 425, 734]]\nframe61: persons: [id:1 bbox:[376, 398, 432, 629], id:2 bbox:[295, 612, 427, 755]]\nframe91: persons: [id:1 bbox:[357, 421, 418, 673], id:2 bbox:[299, 614, 387, 755]]\nframe121: persons: [id:1 bbox:[317, 483, 392, 693]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a white shirt and sky blue pants, is pulling ID1, who is wearing a balck checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "406-1_cam01_assault01_place03_day_summer_person1_punching_seg2_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[453, 324, 485, 464], id:2 bbox:[422, 342, 447, 498]]\nframe31: persons: [id:1 bbox:[464, 321, 487, 460], id:2 bbox:[444, 326, 473, 474]]\nframe61: persons: [id:1 bbox:[492, 303, 518, 422], id:2 bbox:[471, 323, 499, 465]]\nframe91: persons: [id:1 bbox:[511, 322, 536, 393], id:2 bbox:[486, 297, 521, 418]]\nframe121: persons: [id:1 bbox:[522, 316, 546, 375], id:2 bbox:[487, 286, 510, 398]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2 who is wearing a black shirt and black pants, is pushing ID1, who is wearing a black shirt and black pants"
+      }
+    ]
+  },
+  {
+    "video": "5-3_cam01_assault01_place08_day_summer_person1_pulling_seg7_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[424, 337, 452, 491], id:2 bbox:[379, 336, 409, 457], id:3 bbox:[399, 354, 428, 523]]\nframe31: persons: [id:2 bbox:[372, 341, 406, 506], id:3 bbox:[389, 370, 431, 540], id:1 bbox:[406, 338, 443, 490]]\nframe61: persons: [id:2 bbox:[360, 339, 394, 398], id:3 bbox:[353, 366, 399, 537], id:1 bbox:[404, 344, 437, 521]]\nframe91: persons: [id:2 bbox:[359, 333, 392, 449], id:3 bbox:[349, 362, 387, 529], id:1 bbox:[390, 350, 441, 519]]\nframe121: persons: [id:2 bbox:[354, 335, 386, 482], id:3 bbox:[345, 352, 382, 524], id:1 bbox:[393, 351, 430, 523]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID3, who is wearing a white shirt and black pants, is slapping ID2, also wearing a white shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-3_cam02_assault03_place05_day_spring_person1_kicking_seg11_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[297, 563, 386, 755], id:2 bbox:[340, 423, 424, 651]]\nframe31: persons: [id:2 bbox:[357, 378, 413, 627], id:1 bbox:[292, 553, 388, 755]]\nframe61: persons: [id:2 bbox:[339, 378, 422, 608], id:1 bbox:[292, 577, 389, 754], id:3 bbox:[732, 258, 755, 350]]\nframe91: persons: [id:2 bbox:[333, 350, 399, 597], id:1 bbox:[286, 580, 385, 755], id:3 bbox:[714, 241, 736, 329]]\nframe121: persons: [id:2 bbox:[356, 319, 412, 517], id:1 bbox:[285, 588, 387, 755], id:3 bbox:[700, 230, 725, 311]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID2, who is wearing a blue checkered shirt and sky blue pants, is kicking ID1, who is wearing a pink checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "12-4_cam02_assault01_place09_day_spring_person1_threaten_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[111, 257, 188, 625], id:2 bbox:[237, 214, 284, 452]]\nframe31: persons: [id:1 bbox:[166, 239, 239, 552], id:2 bbox:[222, 232, 277, 457]]\nframe61: persons: [id:1 bbox:[216, 221, 262, 501], id:2 bbox:[241, 223, 277, 468]]\nframe91: persons: [id:1 bbox:[206, 221, 268, 508], id:2 bbox:[246, 219, 270, 458]]\nframe121: persons: [id:1 bbox:[209, 221, 267, 509], id:2 bbox:[242, 213, 281, 418]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1 who is wearing checkered shirt and blue pants is threatening ID2 who is wearing checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "8-6_cam02_assault03_place05_day_summer_person1_kicking_seg7_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[235, 124, 303, 398], id:2 bbox:[146, 351, 281, 509]]\nframe31: persons: [id:1 bbox:[236, 128, 304, 399], id:2 bbox:[146, 352, 282, 511]]\nframe61: persons: [id:1 bbox:[238, 151, 317, 403], id:2 bbox:[171, 350, 281, 452]]\nframe91: persons: [id:1 bbox:[239, 121, 305, 403], id:2 bbox:[158, 361, 283, 518]]\nframe121: persons: [id:1 bbox:[241, 125, 307, 402], id:2 bbox:[148, 344, 282, 516]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and sky blue pants, is kicking ID2, who is wearing a checkered shirt and black pants."
+      }
+    ]
+  },
+  {
+    "video": "21-4_cam02_assault01_place09_day_summer_person1_throwing_seg1_tracked.mp4",
+    "conversations": [
+      {
+        "from": "human",
+        "value": "<video>\nCould you please tell me if the video is of assault and if so, what happened?\nframe1: persons: [id:1 bbox:[240, 217, 288, 346], id:2 bbox:[261, 300, 311, 455]]\nframe31: persons: [id:1 bbox:[263, 263, 332, 346], id:2 bbox:[262, 308, 319, 453]]\nframe61: persons: [id:1 bbox:[197, 255, 244, 447], id:2 bbox:[264, 275, 313, 435]]\nframe91: persons: [id:1 bbox:[8, 345, 183, 686], id:2 bbox:[263, 270, 318, 442]]\nframe121: persons: [id:2 bbox:[264, 235, 303, 437]]"
+      },
+      {
+        "from": "gpt",
+        "value": "In an assault situation, ID1, who is wearing a white shirt and blue jeans, is slapping and throwing something at ID2, who is wearing a white shirt and black pants"
+      }
+    ]
+  }
+]

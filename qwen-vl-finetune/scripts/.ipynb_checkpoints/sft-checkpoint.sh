@@ -18,13 +18,13 @@ batch_size=1
 grad_accum_steps=1
 
 # Training entry point
-entry_file=qwenvl/train/train_qwen.py
+entry_file=../qwenvl/train/train_qwen.py
 
 # Dataset configuration (replace with public dataset names)
-datasets="assault"
+datasets="a_n"
 
 # Output configuration
-run_name="qwen2vl-baseline"
+run_name="qwen2_5vl-baseline"
 output_dir=./outputs
 
 # Training arguments
@@ -60,7 +60,7 @@ args="--deepspeed ${deepspeed} \
 torchrun --nproc_per_node=${NPROC_PER_NODE} \
          --master_addr=${MASTER_ADDR} \
          --master_port=${MASTER_PORT} \
-         qwenvl/train/train_qwen.py \
+         /qwenvl/train/train_qwen.py \
          --deepspeed ${deepspeed} \
          --model_name_or_path "${llm}" \
          --dataset_use ${datasets} \
