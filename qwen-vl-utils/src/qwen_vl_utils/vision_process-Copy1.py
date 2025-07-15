@@ -20,21 +20,20 @@ from PIL import Image
 from torchvision import io, transforms
 from torchvision.transforms import InterpolationMode
 
-
 logger = logging.getLogger(__name__)
 
 # vision transformer 토큰수 관리
 IMAGE_FACTOR = 28
 MIN_PIXELS = 4 * 28 * 28
 MAX_PIXELS = 16384 * 28 * 28
-MAX_RATIO = 200
+MAX_RATIO = 200 # 높이와 너비를 나눴을때 비율이 200보다 작아야 한다.
 
-VIDEO_MIN_PIXELS = 128 * 28 * 28
-VIDEO_MAX_PIXELS = 768 * 28 * 28
-FRAME_FACTOR = 2
-FPS = 2.0
-FPS_MIN_FRAMES = 4
-FPS_MAX_FRAMES = 768
+VIDEO_MIN_PIXELS = 128 * 28 * 28 # 최소 해상도 : 100352, 패치최소 , N x 28 x 28 , N:패치개수 , 28 x 28 : 패치크기
+VIDEO_MAX_PIXELS = 768 * 28 * 28 # 최대 해상도 : 602112, 패치최대 768개
+FRAME_FACTOR = 2 # 프레임 수를 항상 2의배수로 설정하겠다는 의미
+FPS = 2.0 # 초당 2프레임씩 추출
+FPS_MIN_FRAMES = 4 # 최소 프레임 수
+FPS_MAX_FRAMES = 768 # 최대 프레임 수 : 30fps이면 25초 영상
 
 # Set the maximum number of video token inputs.
 # Here, 128K represents the maximum number of input tokens for the VLLM model.
@@ -77,8 +76,8 @@ def smart_resize(
         raise ValueError(
             f"absolute aspect ratio must be smaller than {MAX_RATIO}, got {max(height, width) / min(height, width)}"
         )
-    h_bar = max(factor, round_by_factor(height, factor))
-    w_bar = max(factor, round_by_factor(width, factor))
+    h_bar = max(factor, round_by_factor(height, factor)) # 높이 패치 개수
+    w_bar = max(factor, round_by_factor(width, factor)) # 너비 패치 개수
     if h_bar * w_bar > max_pixels:
         beta = math.sqrt((height * width) / max_pixels)
         h_bar = floor_by_factor(height / beta, factor)
@@ -335,7 +334,7 @@ def is_torchcodec_available() -> bool:
     except (ImportError, AttributeError, Exception):
         return False
 
-
+# fetch_video 에서 사용됨, fetch_video에서 영상 리더 벡엔드로 환경변수 FORCE_QWENVL_VIDEO_READER에 저장된 값을 가져온다. 종류로는 decord, torchcodec, torchvision이 있고 여기서는 torchcodec을 사용한다.
 def _read_video_torchcodec(
     ele: dict,
 ) -> (torch.Tensor, float):
@@ -380,25 +379,48 @@ VIDEO_READER_BACKENDS = {
 FORCE_QWENVL_VIDEO_READER = os.getenv("FORCE_QWENVL_VIDEO_READER", None)
 
 
-@lru_cache(maxsize=1)
+# fetch_video에서 사용됨
+# 영상 리더 백엔드 조정하는 함수
+@lru_cache(maxsize=1) # 한 번 계산한 결과를 캐시해두는 데코레이터, maxsize=1 결과 하나만 기억, 설정파일은 바뀌지 않기 때문에 매번 읽을 필요없이 캐싱한다.
 def get_video_reader_backend() -> str:
     if FORCE_QWENVL_VIDEO_READER is not None:
         video_reader_backend = FORCE_QWENVL_VIDEO_READER
     elif is_torchcodec_available():
-        video_reader_backend = "torchcodec"
+        video_reader_backend = "torchcodec" # 알리바바에서 만들었고 qwen_vl과 호환성이 좋기 때문에 torchcodec 사용하는게 좋다
     elif is_decord_available():
         video_reader_backend = "decord"
     else:
         video_reader_backend = "torchvision"
     print(f"qwen-vl-utils using {video_reader_backend} to read video.", file=sys.stderr)
-    return video_reader_backend
+    return video_reader_backend # 어떤 영상리더 백엔드를 사용할지 반환. 예 : torchcodec
 
 
+def extract_vision_info(conversations: list[dict] | list[list[dict]]) -> list[dict]:
+    vision_infos = []
+    if isinstance(conversations[0], dict):
+        conversations = [conversations]
+    for conversation in conversations:
+        for message in conversation:
+            if isinstance(message["content"], list): # 입력의 user 부분만 탐색
+                for ele in message["content"]: # 입력의 video와 prompt가 들어있는 리스트 순회
+                    if (
+                        "image" in ele
+                        or "image_url" in ele
+                        or "video" in ele # video가 있다.
+                        or ele.get("type","") in ("image", "image_url", "video")
+                    ):
+                        vision_infos.append(ele) # video부분을 vision_info에 저장
+    return vision_infos # video 정보만 가져온다. 예 : {"type": "video", "video": video_path, "fps": 1.0},
+
+
+# 영상 리사이즈 하는 함수
+# ele : {"type": "video", "video": video_path, "fps": 1.0},
+# image_factor : 28
 def fetch_video(ele: dict, image_factor: int = IMAGE_FACTOR, return_video_sample_fps: bool = False) -> torch.Tensor | list[Image.Image]:
     if isinstance(ele["video"], str):
         video_reader_backend = get_video_reader_backend()
         try:
-            video, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele)
+            video, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele) # torchcodec": _read_video_torchcodec + (ele) ele : {"type": "video", "video": video_path, "fps": 1.0}
         except Exception as e:
             logger.warning(f"video_reader_backend {video_reader_backend} error, use torchvision as default, msg: {e}")
             video, sample_fps = VIDEO_READER_BACKENDS["torchvision"](ele)
@@ -451,34 +473,18 @@ def fetch_video(ele: dict, image_factor: int = IMAGE_FACTOR, return_video_sample
         return images
 
 
-def extract_vision_info(conversations: list[dict] | list[list[dict]]) -> list[dict]:
-    vision_infos = []
-    if isinstance(conversations[0], dict):
-        conversations = [conversations]
-    for conversation in conversations:
-        for message in conversation:
-            if isinstance(message["content"], list):
-                for ele in message["content"]:
-                    if (
-                        "image" in ele
-                        or "image_url" in ele
-                        or "video" in ele
-                        or ele.get("type","") in ("image", "image_url", "video")
-                    ):
-                        vision_infos.append(ele)
-    return vision_infos
-
-
 def process_vision_info(
     conversations: list[dict] | list[list[dict]],
     return_video_kwargs: bool = False,
 ) -> tuple[list[Image.Image] | None, list[torch.Tensor | list[Image.Image]] | None, Optional[dict]]:
 
-    vision_infos = extract_vision_info(conversations)
+    vision_infos = extract_vision_info(conversations) # {"type": "video", "video": video_path, "fps": 1.0}
+    
     ## Read images or videos
     image_inputs = []
     video_inputs = []
     video_sample_fps_list = []
+    
     for vision_info in vision_infos:
         if "image" in vision_info or "image_url" in vision_info:
             image_inputs.append(fetch_image(vision_info))
@@ -488,6 +494,7 @@ def process_vision_info(
             video_inputs.append(video_input)
         else:
             raise ValueError("image, image_url or video should in content.")
+            
     if len(image_inputs) == 0:
         image_inputs = None
     if len(video_inputs) == 0:

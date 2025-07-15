@@ -305,7 +305,7 @@ class LazySupervisedDataset(Dataset):
         target_frames = min(
             max(num_frames_to_sample, video_min_frames), video_max_frames
         )
-        frame_idx = np.arange(0, total_frames - 1, target_frames)
+        frame_idx = np.arange(0, total_frames - 1, 30)
         frame_idx = np.unique(frame_idx)
         video = vr.get_batch(frame_idx).asnumpy()
         return self.process_video_frames(video, frame_idx, video_length)
@@ -325,7 +325,7 @@ class LazySupervisedDataset(Dataset):
         target_frames = min(
             max(num_frames_to_sample, video_min_frames), video_max_frames
         )
-        frame_idx = np.arange(0, total_frames - 1, target_frames)
+        frame_idx = np.arange(0, total_frames - 1, 30)
         frame_idx = np.unique(frame_idx)
         frame_batch = decoder.get_frames_at(indices=frame_idx.tolist())
         video = frame_batch.data.cpu().numpy()
