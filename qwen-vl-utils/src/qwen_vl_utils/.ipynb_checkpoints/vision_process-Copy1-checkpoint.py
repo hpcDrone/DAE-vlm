@@ -334,10 +334,8 @@ def is_torchcodec_available() -> bool:
     except (ImportError, AttributeError, Exception):
         return False
 
-
-def _read_video_torchcodec(
-    ele: dict,
-) -> (torch.Tensor, float):
+# fetch_video 에서 사용됨, fetch_video에서 영상 리더 벡엔드로 환경변수 FORCE_QWENVL_VIDEO_READER에 저장된 값을 가져온다. 종류로는 decord, torchcodec, torchvision이 있고 여기서는 torchcodec을 사용한다.
+def _read_video_torchcodec(ele: dict) -> (torch.Tensor, float):
     """read video using torchcodec.decoders.VideoDecoder
 
     Args:
@@ -416,12 +414,11 @@ def extract_vision_info(conversations: list[dict] | list[list[dict]]) -> list[di
 # 영상 리사이즈 하는 함수
 # ele : {"type": "video", "video": video_path, "fps": 1.0},
 # image_factor : 28
-
 def fetch_video(ele: dict, image_factor: int = IMAGE_FACTOR, return_video_sample_fps: bool = False) -> torch.Tensor | list[Image.Image]:
     if isinstance(ele["video"], str):
         video_reader_backend = get_video_reader_backend()
         try:
-            video, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele)
+            video, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele) # torchcodec": _read_video_torchcodec + (ele) ele : {"type": "video", "video": video_path, "fps": 1.0}
         except Exception as e:
             logger.warning(f"video_reader_backend {video_reader_backend} error, use torchvision as default, msg: {e}")
             video, sample_fps = VIDEO_READER_BACKENDS["torchvision"](ele)

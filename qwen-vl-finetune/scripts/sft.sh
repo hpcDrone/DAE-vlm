@@ -21,7 +21,7 @@ grad_accum_steps=1
 entry_file=../qwenvl/train/train_qwen.py
 
 # Dataset configuration (replace with public dataset names)
-datasets="a_n"
+datasets="a_s"
 
 # Output configuration
 run_name="qwen2_5vl-baseline"
@@ -37,7 +37,7 @@ args="--deepspeed ${deepspeed} \
     --tune_mm_llm True \
     --bf16 \
     --output_dir ${output_dir} \
-    --num_train_epochs 1 \
+    --num_train_epochs 2 \
     --per_device_train_batch_size ${batch_size} \
     --gradient_accumulation_steps ${grad_accum_steps} \
     --max_pixels 50176 \
@@ -70,7 +70,7 @@ torchrun --nproc_per_node=${NPROC_PER_NODE} \
          --tune_mm_llm True \
          --bf16 \
          --output_dir ${output_dir} \
-         --num_train_epochs 1 \
+         --num_train_epochs 2 \
          --per_device_train_batch_size ${batch_size} \
          --gradient_accumulation_steps ${grad_accum_steps} \
          --max_pixels 50176 \

@@ -10,10 +10,15 @@ A_N = {
     "annotation_path": "/tf/notebook/NFS_dataset/Qwen2.5-VL/qwen-vl-finetune/qwenvl/train_dataset/merged_a_n_train.json",
     "data_path": "/tf/notebook/NFS_dataset/YOLO_with_ReID/results/video_group_1(only day)"
 }
+ASSAULT_SWOON = {
+    "annotation_path": "/tf/notebook/NFS_dataset/Qwen2.5-VL/qwen-vl-finetune/qwenvl/train_dataset/merged_a_n_train.json",
+    "data_path": "/tf/notebook/NFS_dataset/YOLO_with_ReID/results/video_group_1(only day)"
+}
 
 data_dict = {
     # "assault" : ASSAULT,
-    "a_n" : A_N
+    #"a_n" : A_N,
+    "a_s" : ASSAULT_SWOON
 }
 
 
@@ -39,7 +44,7 @@ def data_list(dataset_names):
 
 
 if __name__ == "__main__":
-    dataset_names = ["a_n%100"]
+    dataset_names = ["a_s%100"]
     configs = data_list(dataset_names)
     for config in configs:
         print(config)
