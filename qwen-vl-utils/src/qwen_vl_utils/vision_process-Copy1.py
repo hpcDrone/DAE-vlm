@@ -260,7 +260,7 @@ def calculate_video_frame_range(
     # Get start and end time in seconds
     video_start = ele.get("video_start", None)
     video_end = ele.get("video_end", None)
-    if video_start is None and video_end is None:
+    if video_start is None and video_end is None: # 따로 시작프레임 끝 프레임 지정 안해놨으면 전체 영상 프레임 사용
         return 0, total_frames - 1, total_frames
 
     max_duration = total_frames / video_fps
@@ -335,9 +335,7 @@ def is_torchcodec_available() -> bool:
         return False
 
 # fetch_video 에서 사용됨, fetch_video에서 영상 리더 벡엔드로 환경변수 FORCE_QWENVL_VIDEO_READER에 저장된 값을 가져온다. 종류로는 decord, torchcodec, torchvision이 있고 여기서는 torchcodec을 사용한다.
-def _read_video_torchcodec(
-    ele: dict,
-) -> (torch.Tensor, float):
+def _read_video_torchcodec(ele: dict) -> (torch.Tensor, float):
     """read video using torchcodec.decoders.VideoDecoder
 
     Args:
@@ -353,7 +351,7 @@ def _read_video_torchcodec(
     TORCHCODEC_NUM_THREADS = int(os.environ.get('TORCHCODEC_NUM_THREADS', 8))
     logger.info(f"set TORCHCODEC_NUM_THREADS: {TORCHCODEC_NUM_THREADS}")
     video_path = ele["video"]
-    st = time.time()
+    st = time.time() # 현재 시각 기록
     decoder = VideoDecoder(video_path, num_ffmpeg_threads=TORCHCODEC_NUM_THREADS)
     video_fps = decoder.metadata.average_fps
     total_frames = decoder.metadata.num_frames
@@ -366,10 +364,11 @@ def _read_video_torchcodec(
     idx = torch.linspace(start_frame, end_frame, nframes).round().long().tolist()
     sample_fps = nframes / max(total_frames, 1e-6) * video_fps
     video = decoder.get_frames_at(indices=idx).data
-    logger.info(f"torchcodec:  {video_path=}, {total_frames=}, {video_fps=}, time={time.time() - st:.3f}s")
+    logger.info(f"torchcodec:  {video_path=}, {total_frames=}, {video_fps=}, time={time.time() - st:.3f}s") # 현재시각 - 기록한시각
     return video, sample_fps
 
 
+# 비디오 리더 백엔드 종류
 VIDEO_READER_BACKENDS = {
     "decord": _read_video_decord,
     "torchvision": _read_video_torchvision,
@@ -421,7 +420,7 @@ def fetch_video(ele: dict, image_factor: int = IMAGE_FACTOR, return_video_sample
         video_reader_backend = get_video_reader_backend()
         try:
             video, sample_fps = VIDEO_READER_BACKENDS[video_reader_backend](ele) # torchcodec": _read_video_torchcodec + (ele) ele : {"type": "video", "video": video_path, "fps": 1.0}
-        except Exception as e:
+        except Exception as e: # default는 torchvision
             logger.warning(f"video_reader_backend {video_reader_backend} error, use torchvision as default, msg: {e}")
             video, sample_fps = VIDEO_READER_BACKENDS["torchvision"](ele)
 
