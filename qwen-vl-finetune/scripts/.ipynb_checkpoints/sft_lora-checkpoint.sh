@@ -7,18 +7,18 @@ NNODES=${WORLD_SIZE:-1}
 NPROC_PER_NODE=$(nvidia-smi --list-gpus |wc -l)
 
 # DeepSpeed configuration
-deepspeed=./scripts/zero3.json # zero3_offload.json
+deepspeed=./zero3.json # zero3_offload.json
 
 # Model configuration
 llm=Qwen/Qwen2.5-VL-3B-Instruct  # Using HuggingFace model ID
 
 # Training hyperparameters
-lr=2e-7
+lr=2e-5
 batch_size=1
 grad_accum_steps=1
 
 # Training entry point
-entry_file=../qwenvl/train/train_qwen.py
+entry_file=../qwenvl/train/train_qwen_lora.py
 
 # Dataset configuration (replace with public dataset names)
 datasets="a_n"
@@ -60,7 +60,7 @@ args="--deepspeed ${deepspeed} \
 torchrun --nproc_per_node=${NPROC_PER_NODE} \
          --master_addr=${MASTER_ADDR} \
          --master_port=${MASTER_PORT} \
-         /qwenvl/train/train_qwen.py \
+         ../qwenvl/train/train_qwen_lora.py \
          --deepspeed ${deepspeed} \
          --model_name_or_path "${llm}" \
          --dataset_use ${datasets} \

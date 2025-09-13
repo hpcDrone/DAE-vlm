@@ -14,6 +14,13 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 
+### Lora 추가
+from peft import LoraConfig, get_peft_model
+from peft.tuners.lora import LoraLayer
+from peft import PeftModel
+
+
+
 import os
 import logging
 import pathlib
@@ -23,8 +30,8 @@ import json
 from typing import Dict
 import shutil
 import sys
+import gc
 from pathlib import Path
-import ast
 
 project_root = Path(__file__).parent.parent.parent
 sys.path.append(str(project_root))
@@ -34,8 +41,7 @@ from trainer import replace_qwen2_vl_attention_class
 
 from transformers import (
     Qwen2VLForConditionalGeneration,
-    Qwen2_5_VLForConditionalGeneration,
-)
+    Qwen2_5_VLForConditionalGeneration,)
 from qwenvl.data.data_qwen import make_supervised_data_module
 from qwenvl.data.data_qwen_packed import make_supervised_data_module_packed
 from qwenvl.train.argument import (
@@ -45,82 +51,56 @@ from qwenvl.train.argument import (
 )
 from transformers import AutoTokenizer, AutoProcessor, Qwen2VLImageProcessor, Trainer
 from torch.distributed import is_initialized, destroy_process_group
-
-from peft import get_peft_model, LoraConfig, TaskType #LoRA setting library
 local_rank = None
+
 
 def rank0_print(*args):
     if local_rank == 0:
         print(*args)
 
-# Find lora setting in model
-def find_target_linear_names(model, num_lora_modules=-1, lora_namespan_exclude=[], verbose=True):
-    linear_cls = torch.nn.modules.Linear
-    embedding_cls = torch.nn.modules.Embedding
-    lora_module_names = []
-
-    for name, module in model.named_modules():
-        if any(ex_keyword in name for ex_keyword in lora_namespan_exclude):
-            continue
-        if isinstance(module, (linear_cls, embedding_cls)):
-            lora_module_names.append(name)
-    
-    if num_lora_modules > 0:
-        lora_module_names = lora_module_names[-num_lora_modules:]
-    if verbose:
-        rank0_print(f"Found {len(lora_module_names)} lora modules: {lora_module_names}")
-    return lora_module_names
 
 def safe_save_model_for_hf_trainer(trainer: transformers.Trainer, output_dir: str):
     """Collects the state dict and dump to disk."""
-
-    if trainer.deepspeed:
-        torch.cuda.synchronize()
-        trainer.save_model(output_dir)
-        return
-
+    ### lora 추가
     if isinstance(trainer.model, PeftModel):
         trainer.model.save_pretrained(output_dir)
-        return
+    else:
+    ### lora 추가
+        if trainer.deepspeed:
+            torch.cuda.synchronize()
+            trainer.save_model(output_dir)
+            return
+    
+        state_dict = trainer.model.state_dict()
+        if trainer.args.should_save:
+            cpu_state_dict = {key: value.cpu() for key, value in state_dict.items()}
+            del state_dict
+            trainer._save(output_dir, state_dict=cpu_state_dict)  # noqa
 
-    state_dict = trainer.model.state_dict()
-    if trainer.args.should_save:
-        cpu_state_dict = {key: value.cpu() for key, value in state_dict.items()}
-        del state_dict
-        trainer._save(output_dir, state_dict=cpu_state_dict)  # noqa
 
+def set_model(model_args, model):
+    if model_args.tune_mm_vision:
+        for n, p in model.visual.named_parameters():
+            p.requires_grad = True
+    else:
+        for n, p in model.visual.named_parameters():
+            p.requires_grad = False
 
-def set_model(model_args, model, training_args=None):
-    using_lora = training_args.lora_enable if training_args is not None else False
+    if model_args.tune_mm_mlp:
+        for n, p in model.visual.merger.named_parameters():
+            p.requires_grad = True
+    else:
+        for n, p in model.visual.merger.named_parameters():
+            p.requires_grad = False
 
-    if not using_lora:
-        if model_args.tune_mm_vision:
-            for n, p in model.visual.named_parameters():
-                p.requires_grad = True
-        else:
-            for n, p in model.visual.named_parameters():
-                p.requires_grad = False
-
-        if model_args.tune_mm_mlp:
-            for n, p in model.visual.merger.named_parameters():
-                p.requires_grad = True
-        else:
-            for n, p in model.visual.merger.named_parameters():
-                p.requires_grad = False
-
-        if model_args.tune_mm_llm:
-            for n, p in model.model.named_parameters():
-                p.requires_grad = True
-            model.lm_head.requires_grad = True
-        else:
-            for n, p in model.model.named_parameters():
-                p.requires_grad = False
-            model.lm_head.requires_grad = False
-
-        if training_args.lora_namespan_exclude is not None:
-            training_args.lora_namespan_exclude = ast.literal_eval(training_args.lora_namespan_exclude)
-        else:
-            training_args.lora_namespan_exclude = []
+    if model_args.tune_mm_llm:
+        for n, p in model.model.named_parameters():
+            p.requires_grad = True
+        model.lm_head.requires_grad = True
+    else:
+        for n, p in model.model.named_parameters():
+            p.requires_grad = False
+        model.lm_head.requires_grad = False
 
 
 def train(attn_implementation="flash_attention_2"):
@@ -141,18 +121,22 @@ def train(attn_implementation="flash_attention_2"):
             attn_implementation=attn_implementation,
             torch_dtype=(torch.bfloat16 if training_args.bf16 else None),
         )
-        if training_args.lora_enable:
-            rank0_print("Adding LoRA to the model...")
-            lora_namespan_exclude = training_args.lora_namespan_exclude
-            peft_config = LoraConfig(
-                r=training_args.lora_rank,
-                lora_alpha=training_args.lora_alpha,
-                target_modules=find_target_linear_names(model, lora_namespan_exclude=lora_namespan_exclude, num_lora_modules=training_args.num_lora_modules),
-                lora_dropout=training_args.lora_dropout,
-                bias=training_args.lora_bias
-                task_type=TaskType.CAUSAL_LM
-            )
-            model = get_peft_model(model, peft_config)
+
+        #### lora 추가
+        lora_config = LoraConfig(
+            r=16,
+            lora_alpha=32,
+            target_modules=[
+                "q_proj", "v_proj",        # LLM Attention
+                "gate_proj", "up_proj", "down_proj"  # MLP
+            ],
+            lora_dropout=0.1,
+            bias="none",
+            task_type="CAUSAL_LM"
+        )
+        model = get_peft_model(model, lora_config)
+        #### 
+        
         data_args.image_processor = AutoProcessor.from_pretrained(
             model_args.model_name_or_path,
         ).image_processor
@@ -190,12 +174,16 @@ def train(attn_implementation="flash_attention_2"):
         padding_side="right",
         use_fast=False,
     )
-    set_model(model_args, model, training_args)
+    ### lora 추가로 비활성화 
+    # set_model(model_args, model)
+    ###
 
     if torch.distributed.get_rank() == 0:
-        model.visual.print_trainable_parameters()
-        model.model.print_trainable_parameters()
-    
+        ### lora 추가
+        # model.visual.print_trainable_parameters()
+        # model.model.print_trainable_parameters()
+        model.print_trainable_parameters()
+        
     if data_args.data_packing:
         data_module = make_supervised_data_module_packed(tokenizer=tokenizer, data_args=data_args)
     else:
@@ -216,8 +204,13 @@ def train(attn_implementation="flash_attention_2"):
 
     safe_save_model_for_hf_trainer(trainer=trainer, output_dir=training_args.output_dir)
 
+    del trainer.model
+    del trainer
+    gc.collect()
+    torch.cuda.empty_cache()
+    
     if is_initialized():
         destroy_process_group()
-
+    
 if __name__ == "__main__":
     train(attn_implementation="flash_attention_2")
