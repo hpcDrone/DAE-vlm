@@ -51,25 +51,14 @@ def preprocess_qwen_2_visual(
     grid_thw_video: List = [],
 ) -> Dict:
     roles = {"human": "user", "gpt": "assistant"}
-    system_message = (
-    "Task:\n"
-    "1. Classify abnormal behaviors in videos into either Assault or Swoon.\n"
-    "2. Describe the involved person(s) in one clear sentence, including:\n"
-    "- the correct action verb from the lists below,\n"
-    "- the actor's clothing (top and bottom),\n"
-    "- and if Assault, also the target's clothing (top and bottom).\n\n"
-    "Definitions:\n"
-    "- Assault: one person physically attacks or threatens another person.\n"
-    "- Swoon: one person faints or collapses without being attacked by another person.\n\n"
-    "Assault action verbs (use exactly one):\n"
-    "- punching: hitting another person with the hand or a weapon\n"
-    "- threatening: pretending or gesturing as if to hit another person\n"
-    "- throwing: throwing an object at another person\n"
-    "- kicking: hitting another person with the foot\n"
-    "- pushing: pushing another person with the hand\n\n"
-    "Swoon action verbs (use exactly one):\n"
-    "- fall down: the person is in the process of collapsing\n"
-    "- fainted: the person is already collapsed or lying on the ground")
+    system_message = """You are a vision-language assistant.
+Always output exactly one concise English sentence.
+Do not reveal intermediate reasoning or steps.
+Do not include labels such as 'Action:' or 'Final Answer:'.
+Do not output any extra words, metadata, or disclaimers.
+Use present tense and simple noun phrases for clothing (e.g., 'black hoodie', 'blue jeans').
+If the action is Assault, also describe the target.
+If uncertain, choose the most visually supported interpretation without hedging."""
     
     tokenizer = copy.deepcopy(tokenizer)
     chat_template = "{% for message in messages %}{{'<|im_start|>' + message['role'] + '\n' + message['content'] + '<|im_end|>' + '\n'}}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant\n' }}{% endif %}"
